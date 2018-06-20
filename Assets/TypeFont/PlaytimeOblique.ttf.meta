@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 08c43a27b4014d741b96f426dcc65b8a
+timeCreated: 1500453330
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: PlaytimeWithHotToddiesOblique
+  fontNames:
+  - PlaytimeWithHotToddiesOblique
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
