@@ -29,7 +29,11 @@ public class VNMain : MonoBehaviour {
 		if (!isPaused) {
 			if (Input.GetButtonDown ("nextLine")) {
 				linesCounter++;
-				tbox.text = storyStrings.StoryText [linesCounter];
+				if (storyStrings.StoryText.Length + 1 == linesCounter) {
+					//storyStrings = storyLines.StoryLinesArray[]; *Note* Set storyStrings to the Decision's next storyLinesArray.
+				} else {
+					tbox.text = storyStrings.StoryText [linesCounter];
+				}
 			}
 		}
 	}
