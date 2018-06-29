@@ -51,8 +51,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11488fae3ed434de98a9d7e880b0dbb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prompt: Well... What are you going to do?
   optionString: Of course!
+  prompt: TO BE CONTINUED...
   nextStoryStrings: 1
   nextImage: {fileID: 0}
   nextDecisions: []

@@ -21,9 +21,12 @@ public class VNMain : MonoBehaviour {
 	private Decision currentDecision;
 	private StoryStrings storyStrings;
 
+    private bool canGetNextLine;
+
 	// Use this for initialization
 	void Start () {
-		storyStrings = storyLines.StoryLinesArray [0];
+        canGetNextLine = true;
+        storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
 		linesCounter = 0;
 		tbox.text = storyStrings.StoryText [linesCounter];
@@ -45,7 +48,8 @@ public class VNMain : MonoBehaviour {
 	}
 
 	private void activatePrompt() {
-		tbox.text = currentDecision.promptString();
+        canGetNextLine = false;
+        tbox.text = currentDecision.promptString();
 		for (int i = 0; i < currentDecision.numberOfDecisions(); i++) {
 			Decisions [i].gameObject.SetActive (true);
 			//Set buttonText
@@ -59,4 +63,13 @@ public class VNMain : MonoBehaviour {
 			Decisions [i].gameObject.SetActive (false);
 		}
 	}
+
+    public void buttonClicked(int i)
+    {
+        deactivateDecisions();
+        linesCounter = 0;
+        currentDecision = currentDecision.nextDecisionAdvance(i);
+        storyStrings = storyLines.StoryLinesArray[currentDecision.getNextStoryStrings()];
+        tbox.text = storyStrings.StoryText[linesCounter];
+    }
 }

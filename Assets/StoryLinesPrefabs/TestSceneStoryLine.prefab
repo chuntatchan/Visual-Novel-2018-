@@ -57,4 +57,19 @@ MonoBehaviour:
     - I've missed you terriby, and so has Austin.
     - It would be great to catch up sometime. I know you're super busy with school
       and all...
+  - StoryText:
+    - Decision 1 - Of course!
+    - MOCHIRON, BAKA!
+    - '*blush*'
+    - -END DEMO-
+  - StoryText:
+    - Decision 2 - Ummm....
+    - eetttoooo....
+    - '*panics*'
+    - -END DEMO-
+  - StoryText:
+    - Decision 3 - Can't. I'm busy.
+    - "Dekimasen. Watashi wa isogash\u012B nda."
+    - '*Frowns face*'
+    - -END DEMO-
   - StoryText: []

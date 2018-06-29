@@ -20,6 +20,11 @@ public class Decision : MonoBehaviour {
 		return nextDecisions.Length;
 	}
 
+    public int getNextStoryStrings()
+    {
+        return nextStoryStrings;
+    }
+
 	public string promptString() {
 		return prompt;
 	}
@@ -31,5 +36,10 @@ public class Decision : MonoBehaviour {
 	public string nextDecisionOptionString(int i) {
 		return nextDecisions [i].optionString;
 	}
+
+    public Decision nextDecisionAdvance(int i)
+    {
+        return nextDecisions[i];
+    }
 
 }

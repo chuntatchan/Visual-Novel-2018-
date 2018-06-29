@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionString: Ummm....
-  prompt: Well... What are you going to do?
+  prompt: TO BE CONTINUED...
   nextStoryStrings: 2
   nextImage: {fileID: 0}
   nextDecisions: []

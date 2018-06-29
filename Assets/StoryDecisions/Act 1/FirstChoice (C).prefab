@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionString: Can't. I'm busy.
-  prompt: Well... What are you going to do?
+  prompt: TO BE CONTINUED...
   nextStoryStrings: 3
   nextImage: {fileID: 0}
   nextDecisions: []
