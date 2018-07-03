@@ -29,7 +29,7 @@ public class VNMain : MonoBehaviour {
         storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
 		linesCounter = 0;
-		tbox.text = storyStrings.StoryText [linesCounter];
+		tbox.text = storyStrings._storySentence [linesCounter].storySentenceText;
 		currentDecision = startingDecision;
 	}
 	
@@ -38,10 +38,15 @@ public class VNMain : MonoBehaviour {
 		if (!isPaused) {
 			if (Input.GetButtonDown ("nextLine")) {
 				linesCounter++;
-				if (storyStrings.StoryText.Length == linesCounter) {
+				if (storyStrings._storySentence.Length == linesCounter) {
 					activatePrompt ();
 				} else {
-					tbox.text = storyStrings.StoryText [linesCounter];
+					if (canGetNextLine) {
+						tbox.text = storyStrings._storySentence [linesCounter].storySentenceText;
+						if (storyStrings._storySentence [linesCounter]._audioClipStart != null) {
+							AudioSource.PlayClipAtPoint (storyStrings._storySentence [linesCounter]._audioClipStart, gameObject.transform.position);
+						}
+					}
 				}
 			}
 		}
@@ -59,6 +64,7 @@ public class VNMain : MonoBehaviour {
 	}
 
 	private void deactivateDecisions() {
+		canGetNextLine = true;
 		for (int i = 0; i < Decisions.Length; i++) {
 			Decisions [i].gameObject.SetActive (false);
 		}
@@ -70,6 +76,6 @@ public class VNMain : MonoBehaviour {
         linesCounter = 0;
         currentDecision = currentDecision.nextDecisionAdvance(i);
         storyStrings = storyLines.StoryLinesArray[currentDecision.getNextStoryStrings()];
-        tbox.text = storyStrings.StoryText[linesCounter];
+        tbox.text = storyStrings._storySentence[linesCounter].storySentenceText;
     }
 }

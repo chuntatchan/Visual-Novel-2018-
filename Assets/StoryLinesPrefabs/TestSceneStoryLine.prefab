@@ -52,24 +52,57 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   StoryLinesArray:
-  - StoryText:
-    - It's been a long time since we saw you, huh?
-    - I've missed you terriby, and so has Austin.
-    - It would be great to catch up sometime. I know you're super busy with school
-      and all...
-  - StoryText:
-    - Decision 1 - Of course!
-    - MOCHIRON, BAKA!
-    - '*blush*'
-    - -END DEMO-
-  - StoryText:
-    - Decision 2 - Ummm....
-    - eetttoooo....
-    - '*panics*'
-    - -END DEMO-
-  - StoryText:
-    - Decision 3 - Can't. I'm busy.
-    - "Dekimasen. Watashi wa isogash\u012B nda."
-    - '*Frowns face*'
-    - -END DEMO-
-  - StoryText: []
+  - _storySentence:
+    - storySentenceText: It has been a long time since we last saw you, huh?
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: I've missed you terribly, and so has Austin.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: It would be great to catch up sometime. I know you're super
+        busy with school and all...
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+  - _storySentence:
+    - storySentenceText: 'Decision 1: Of course!'
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: MOCHIRON, BAKA~
+      _audioClipStart: {fileID: 8300000, guid: d1f54d6d5d5ca46fca7673be5faf4a8f, type: 3}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: '*blush*'
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+  - _storySentence:
+    - storySentenceText: 'Decision 3: Ummm...'
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: Etto...
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: '*blush*'
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+  - _storySentence:
+    - storySentenceText: 'Decision 2: Can''t. I''m busy.'
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: " \u3067\u304D\u307E\u305B\u3093\u3002\u79C1\u306F\u5FD9\u3057\u3044\u3093\u3060\u3002"
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+    - storySentenceText: "Dekimasen. Watashi wa isogash\u012B nda."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+  - _storySentence: []
