@@ -8,11 +8,12 @@ public class Decision : MonoBehaviour {
 	[SerializeField]
 	private string optionString, prompt;
 	[SerializeField]
-	private int nextStoryStrings;
-	[SerializeField]
-	private Image nextImage;
+	private int storyStrings;
 	[SerializeField]
 	private Decision[] nextDecisions;
+    [SerializeField]
+    private bool _isChoice = true;
+ 
 
 	// Animation? Not sure how to set that up yet.
 
@@ -20,9 +21,9 @@ public class Decision : MonoBehaviour {
 		return nextDecisions.Length;
 	}
 
-    public int getNextStoryStrings()
+    public int getStoryStrings()
     {
-        return nextStoryStrings;
+        return storyStrings;
     }
 
 	public string promptString() {
@@ -40,6 +41,11 @@ public class Decision : MonoBehaviour {
     public Decision nextDecisionAdvance(int i)
     {
         return nextDecisions[i];
+    }
+
+    public bool isChoice()
+    {
+        return _isChoice;
     }
 
 }

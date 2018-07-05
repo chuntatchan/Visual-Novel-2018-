@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using UnityEngine;
-using System.Collections;
 using UnityEngine.UI;
 
 public class StoryLines : MonoBehaviour {
@@ -18,4 +17,9 @@ public class storySentence {
 	public AudioClip _audioClipStart;
 	public Sprite newBGImage;
 	public string animationToStart;
+    public string charaName;
+    public bool useName;
+    public int spawnCharacter = -1;
+    public Sprite newCharaLook;
+    public int newCharaLookInt = -1;
 }

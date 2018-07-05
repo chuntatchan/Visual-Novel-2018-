@@ -20,8 +20,23 @@ public class VNMain : MonoBehaviour {
 	[SerializeField]
 	private Decision currentDecision;
 	private StoryStrings storyStrings;
+    [SerializeField]
+    private GameObject nameTag;
+    [SerializeField]
+    private Text nameTagTbox;
+    [SerializeField]
+    private AudioSource audioSource;
+
+
 
     private bool canGetNextLine;
+
+    private string messageToDisplay;
+    private string message;
+    [SerializeField]
+    private float letterPause;
+
+
 
 	// Use this for initialization
 	void Start () {
@@ -29,7 +44,8 @@ public class VNMain : MonoBehaviour {
         storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
 		linesCounter = 0;
-		tbox.text = storyStrings._storySentence [linesCounter].storySentenceText;
+		messageToDisplay = storyStrings._storySentence [linesCounter].storySentenceText;
+        Text();
 		currentDecision = startingDecision;
 	}
 	
@@ -37,30 +53,89 @@ public class VNMain : MonoBehaviour {
 	void Update () {
 		if (!isPaused) {
 			if (Input.GetButtonDown ("nextLine")) {
-				linesCounter++;
-				if (storyStrings._storySentence.Length == linesCounter) {
-					activatePrompt ();
-				} else {
-					if (canGetNextLine) {
-						tbox.text = storyStrings._storySentence [linesCounter].storySentenceText;
-						if (storyStrings._storySentence [linesCounter]._audioClipStart != null) {
-							AudioSource.PlayClipAtPoint (storyStrings._storySentence [linesCounter]._audioClipStart, gameObject.transform.position);
-						}
-					}
-				}
+                if (!checkTyperText())
+                {
+                    StopAllCoroutines();
+                    tbox.text = messageToDisplay;
+                }
+                else
+                {
+
+                    linesCounter++;
+                    if (storyStrings._storySentence.Length == linesCounter)
+                    {
+                        activatePrompt();
+                    }
+                    else
+                    {
+                        if (canGetNextLine)
+                        {
+                            //Add Beginning of Sentence Conditionals here
+                            storySentence currentStorySentence = storyStrings._storySentence[linesCounter];
+                            messageToDisplay = currentStorySentence.storySentenceText;
+                            Text();
+                            audioSource.Stop();
+                            if (currentStorySentence._audioClipStart != null)
+                            {
+                                audioSource.clip = currentStorySentence._audioClipStart;
+                                audioSource.Play();
+                            }
+                            if (currentStorySentence.useName)
+                            {
+                                nameTagTbox.text = currentStorySentence.charaName;
+                                nameTag.SetActive(true);
+                            }
+                            else
+                            {
+                                nameTag.SetActive(false);
+                            }
+                            if (currentStorySentence.spawnCharacter != -1)
+                            {
+                                Characters[currentStorySentence.spawnCharacter].SetActive(true);
+                            }
+                            if (currentStorySentence.newCharaLookInt != -1)
+                            {
+                                Characters[currentStorySentence.newCharaLookInt].GetComponent<Image>().sprite = currentStorySentence.newCharaLook;
+                            }
+                        }
+                    }
+                }
 			}
 		}
 	}
 
+    private bool checkTyperText()
+    {
+        if (tbox.text == messageToDisplay)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
 	private void activatePrompt() {
-        canGetNextLine = false;
-        tbox.text = currentDecision.promptString();
-		for (int i = 0; i < currentDecision.numberOfDecisions(); i++) {
-			Decisions [i].gameObject.SetActive (true);
-			//Set buttonText
-			Text optionTBox = Decisions[i].GetComponentInChildren<Text>();
-			optionTBox.text = currentDecision.nextDecisionOptionString (i);
-		}
+        if (currentDecision.numberOfDecisions() == 1)
+        {
+            if (!currentDecision.nextDecisionAdvance(0).isChoice())
+            {
+                buttonClicked(0);
+            }
+        }
+        else
+        {
+            canGetNextLine = false;
+            tbox.text = currentDecision.promptString();
+            for (int i = 0; i < currentDecision.numberOfDecisions(); i++)
+            {
+                Decisions[i].gameObject.SetActive(true);
+                //Set buttonText
+                Text optionTBox = Decisions[i].GetComponentInChildren<Text>();
+                optionTBox.text = currentDecision.nextDecisionOptionString(i);
+            }
+        }
 	}
 
 	private void deactivateDecisions() {
@@ -75,7 +150,25 @@ public class VNMain : MonoBehaviour {
         deactivateDecisions();
         linesCounter = 0;
         currentDecision = currentDecision.nextDecisionAdvance(i);
-        storyStrings = storyLines.StoryLinesArray[currentDecision.getNextStoryStrings()];
+        storyStrings = storyLines.StoryLinesArray[currentDecision.getStoryStrings()];
         tbox.text = storyStrings._storySentence[linesCounter].storySentenceText;
     }
+
+    IEnumerator TypeText()
+    {
+        foreach (char letter in message.ToCharArray())
+        {
+            tbox.text += letter;
+            yield return 0;
+            yield return new WaitForSeconds(letterPause);
+        }
+    }
+
+    void Text()
+    {
+        message = messageToDisplay;
+        tbox.text = "";
+        StartCoroutine(TypeText());
+    }
+
 }

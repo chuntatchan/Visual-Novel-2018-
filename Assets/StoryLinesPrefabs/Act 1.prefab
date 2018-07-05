@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1063971614314210}
+  m_IsPrefabParent: 1
+--- !u!1 &1063971614314210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843536330081424}
+  - component: {fileID: 114699491732355808}
+  m_Layer: 0
+  m_Name: Act 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843536330081424
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063971614314210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114699491732355808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063971614314210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a7dff2ad66a434687e07c36395ed97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoryLinesArray:
+  - _storySentence:
+    - storySentenceText: "It\u2019s Gym Class. You always skip; you have zero interest
+        in running around and being sweaty for an hour. Today, you told the Coach
+        your head hurts and you need to see the nurse. You are now sitting behind
+        the Gym playing a video game emulator on your phone."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: This is laziness at peak performance. You could not be happier.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "What was that? You swore you just heard something that wasn\u2019t
+        your game."
+      _audioClipStart: {fileID: 8300000, guid: df6b733793c8dd84dbfab624682e7398, type: 3}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Is someone else there?
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: You call out.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Hewwo? Is someone there??? Hewwoooooooo?????
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Whoever it is, that should scare them off. Memes are the
+        best intimidation tactic when you have absolutely no physical strength.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Aw fuck.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: A figure is rounding the corner!
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "Who\u2019s there? Who said \u201Chewwo\u201D??? What is
+        with you humans and your weird greetings?!"
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: 0
+      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: It looks like another student has found your hiding place.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "The student dons an oversized hoodie paired with bright
+        leggings and painted nails. You aren\u2019t sure of their gender, but it doesn\u2019t
+        look like they\u2019re trying to present in any particular way."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Regardless, they look incredibly stylish. Like an angry pop-star
+        model.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: They finally notice you on the ground and jump.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "You! You\u2019re the hewwo person!! What are you doing here?
+        This is my spot!"
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
+      newCharaLookInt: 0
+  - _storySentence:
+    - storySentenceText: "I\u2019ll do what I want, and there\u2019s nothing you can
+        do to stop me! "
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 0a3d60db15d904571993c4851de718dc, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: "The student bares their teeth and sticks their tongue out
+        at you. It\u2019s unnaturally pink."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: You make a lewd gesture in response, sticking your tongue
+        out between two fingers. The student looks shocked, and then delighted.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: YES! Thank It looks like we have more in common than I thought,
+        human! We both like this spot, and we both like eating people!!
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 80bf472d289a44917ba78ab7504bf486, type: 3}
+      newCharaLookInt: 0
+  - _storySentence:
+    - storySentenceText: ' Finally, something you say makes sense! Give me your worst!!!
+        I want to feel like I can die! '
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: "You launch yourself at the student, knocking them to the
+        ground. You scuffle, but it\u2019s clear that despite their small size they\u2019re
+        much stronger than you. You end up pinned beneath them after a few seconds."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Victory is mine! Now PERISH!!
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: With no other strategy left to turn to, you stick your finger
+        up their nose. They screech and fall off of you, clutching their face.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: You have no manners! How amazing!! I love it!!!
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: They stick out their hand.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+  - _storySentence:
+    - storySentenceText: " If you say one more word like that, I\u2019ll rip your
+        tongue out of your mouth!!"
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: 0
+    - storySentenceText: '3:'
+      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: How are you making that noise?! What does that even mean?!?!
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: Your manner of speech....it entices me.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "The student\u2019s face screws up in concentration."
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: H-hewwo? Am I saying that right?
+      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: ???
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Too shocked to speak, you nod vigorously.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: 0
+  - _storySentence:
+    - storySentenceText: "I am Jin-Woo, and I\u2019m basically the greatest being
+        you\u2019ll ever meet. Who are you, and why should I continue caring about
+        you?"
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: fbf7a7e2e3d7341bc9014633dee54c98, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: "I\u2019m [player name], and one time I stacked three oranges
+        on top of each other and they stayed balanced for over an hour. "
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: 'I have never met a human with skills like that. How fantastic!!! '
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: e8393139d2ca1469f81fbc0279b5bc26, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: 'We must be friends until you wither and die. I will kill
+        anyone and anything to protect you. '
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: 'Also, we can share this space as a sign of our friendship. '
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: On the ground, your phone beeps. The Pokemon game is still
+        open.
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: '!!!! What was that?! Explain it to me immediately!!! '
+      _audioClipStart: {fileID: 0}
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: e5c7b81f110464fc1adaf6ec735b4f71, type: 3}
+      newCharaLookInt: 0
+  - _storySentence: []
+  - _storySentence: []
+  - _storySentence: []
+  - _storySentence: []
