@@ -53,6 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: Of course!
   prompt: TO BE CONTINUED...
-  nextStoryStrings: 1
-  nextImage: {fileID: 0}
+  storyStrings: 1
   nextDecisions: []
+  _isChoice: 1

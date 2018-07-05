@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.37311947, g: 0.38074005, b: 0.35872722, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f06dbf09c5e405d81f448d76b2b1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storyLines: {fileID: 114699491732355808, guid: 11a719a4e7a69ef4687c53ba7548fb53,
+  storyLines: {fileID: 114699491732355808, guid: 55aa44978987f4e63a5526b5d5705178,
     type: 2}
   tbox: {fileID: 1595986390}
   Characters:
@@ -149,15 +149,15 @@ MonoBehaviour:
   linesCounter: 0
   Decisions:
   - {fileID: 1658213485}
-  - {fileID: 1747101488}
   - {fileID: 1230468202}
-  startingDecision: {fileID: 114049259547592310, guid: 236f3fa9b4985cd4f8e6be8026314375,
+  - {fileID: 1747101488}
+  startingDecision: {fileID: 114049259547592310, guid: cd3e1af8a2a624b0bb6ac948bb33f8e7,
     type: 2}
   currentDecision: {fileID: 0}
   nameTag: {fileID: 2060403161}
   nameTagTbox: {fileID: 2115639538}
   audioSource: {fileID: 15483600}
-  letterPause: 0.02
+  letterPause: 0.001
 --- !u!4 &15483599
 Transform:
   m_ObjectHideFlags: 0

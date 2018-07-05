@@ -56,6 +56,7 @@ MonoBehaviour:
     spot!"
   storyStrings: 0
   nextDecisions:
-  - {fileID: 114049259547592310, guid: 0f9fa350c7801de499d8eee00648aa72, type: 2}
-  - {fileID: 114049259547592310, guid: 7d358b24f1983374392459bb07f18904, type: 2}
-  - {fileID: 114049259547592310, guid: f19f56e42264c114ab4033027c6cbf62, type: 2}
+  - {fileID: 114049259547592310, guid: 62662ebee7a684b2cb7f5127ebc9f90d, type: 2}
+  - {fileID: 114049259547592310, guid: d77f7df3ade5f4ad785d41ce3f6a1a79, type: 2}
+  - {fileID: 114049259547592310, guid: 98c2213be126c435ba394ce39cdc3c52, type: 2}
+  _isChoice: 1

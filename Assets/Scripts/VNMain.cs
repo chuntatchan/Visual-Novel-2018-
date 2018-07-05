@@ -70,33 +70,7 @@ public class VNMain : MonoBehaviour {
                     {
                         if (canGetNextLine)
                         {
-                            //Add Beginning of Sentence Conditionals here
-                            storySentence currentStorySentence = storyStrings._storySentence[linesCounter];
-                            messageToDisplay = currentStorySentence.storySentenceText;
-                            Text();
-                            audioSource.Stop();
-                            if (currentStorySentence._audioClipStart != null)
-                            {
-                                audioSource.clip = currentStorySentence._audioClipStart;
-                                audioSource.Play();
-                            }
-                            if (currentStorySentence.useName)
-                            {
-                                nameTagTbox.text = currentStorySentence.charaName;
-                                nameTag.SetActive(true);
-                            }
-                            else
-                            {
-                                nameTag.SetActive(false);
-                            }
-                            if (currentStorySentence.spawnCharacter != -1)
-                            {
-                                Characters[currentStorySentence.spawnCharacter].SetActive(true);
-                            }
-                            if (currentStorySentence.newCharaLookInt != -1)
-                            {
-                                Characters[currentStorySentence.newCharaLookInt].GetComponent<Image>().sprite = currentStorySentence.newCharaLook;
-                            }
+							startNextSentence ();
                         }
                     }
                 }
@@ -115,6 +89,38 @@ public class VNMain : MonoBehaviour {
             return false;
         }
     }
+
+	private void startNextSentence() {
+		//Add Beginning of Sentence Conditionals here
+		storySentence currentStorySentence = storyStrings._storySentence[linesCounter];
+		messageToDisplay = currentStorySentence.storySentenceText;
+		Text();
+		audioSource.Stop();
+		if (currentStorySentence._audioClipStart != null)
+		{
+			audioSource.clip = currentStorySentence._audioClipStart;
+			audioSource.volume = currentStorySentence._audioClipVolume;
+			audioSource.Play();
+		}
+		if (currentStorySentence.useName)
+		{
+			nameTagTbox.text = currentStorySentence.charaName;
+			nameTag.SetActive(true);
+		}
+		else
+		{
+			nameTagTbox.text = "";
+			nameTag.SetActive(false);
+		}
+		if (currentStorySentence.spawnCharacter != -1)
+		{
+			Characters[currentStorySentence.spawnCharacter].SetActive(true);
+		}
+		if (currentStorySentence.newCharaLookInt != -1)
+		{
+			Characters[currentStorySentence.newCharaLookInt].GetComponent<Image>().sprite = currentStorySentence.newCharaLook;
+		}
+	}
 
 	private void activatePrompt() {
         if (currentDecision.numberOfDecisions() == 1)
@@ -151,7 +157,7 @@ public class VNMain : MonoBehaviour {
         linesCounter = 0;
         currentDecision = currentDecision.nextDecisionAdvance(i);
         storyStrings = storyLines.StoryLinesArray[currentDecision.getStoryStrings()];
-        tbox.text = storyStrings._storySentence[linesCounter].storySentenceText;
+		startNextSentence ();
     }
 
     IEnumerator TypeText()

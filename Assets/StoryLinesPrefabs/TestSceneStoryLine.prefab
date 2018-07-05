@@ -55,54 +55,126 @@ MonoBehaviour:
   - _storySentence:
     - storySentenceText: It has been a long time since we last saw you, huh?
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: I've missed you terribly, and so has Austin.
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: It would be great to catch up sometime. I know you're super
         busy with school and all...
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
   - _storySentence:
     - storySentenceText: 'Decision 1: Of course!'
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: MOCHIRON, BAKA~
       _audioClipStart: {fileID: 8300000, guid: d1f54d6d5d5ca46fca7673be5faf4a8f, type: 3}
+      _audioClipVolume: 1
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: '*blush*'
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
   - _storySentence:
     - storySentenceText: 'Decision 3: Ummm...'
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: Etto...
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: '*blush*'
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
   - _storySentence:
     - storySentenceText: 'Decision 2: Can''t. I''m busy.'
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: " \u3067\u304D\u307E\u305B\u3093\u3002\u79C1\u306F\u5FD9\u3057\u3044\u3093\u3060\u3002"
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
     - storySentenceText: "Dekimasen. Watashi wa isogash\u012B nda."
       _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
   - _storySentence: []

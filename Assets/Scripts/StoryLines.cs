@@ -15,6 +15,8 @@ public class StoryStrings {
 public class storySentence {
 	public string storySentenceText;
 	public AudioClip _audioClipStart;
+	[Range(0, 1f)]
+	public float _audioClipVolume;
 	public Sprite newBGImage;
 	public string animationToStart;
     public string charaName;

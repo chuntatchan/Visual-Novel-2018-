@@ -53,6 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: Can't. I'm busy.
   prompt: TO BE CONTINUED...
-  nextStoryStrings: 3
-  nextImage: {fileID: 0}
+  storyStrings: 3
   nextDecisions: []
+  _isChoice: 1
