@@ -1,10 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/VNMain.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/StoryLines.cs">
     <Files>
-      <File FileName="Assets/Scripts/VNMain.cs" Line="47" Column="128" />
+      <File FileName="Assets/Scripts/VNMain.cs" Line="102" Column="63" />
       <File FileName="Assets/Scripts/Decision.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/StoryLines.cs" Line="15" Column="21" />
+      <File FileName="Assets/Scripts/StoryLines.cs" Line="19" Column="14" />
+      <File FileName="Assets/Scripts/SceneManagement/transitionSceneTo.cs" Line="12" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
