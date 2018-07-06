@@ -56,5 +56,5 @@ MonoBehaviour:
   prompt: 
   storyStrings: 2
   nextDecisions:
-  - {fileID: 114049259547592310, guid: 6cd764503b8d64a70ab7d8c62995aa3a, type: 2}
+  - {fileID: 114049259547592310, guid: 0fe16071a6ad0714c86127d73bf3c2e5, type: 2}
   _isChoice: 1

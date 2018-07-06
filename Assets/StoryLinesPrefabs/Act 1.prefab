@@ -78,7 +78,7 @@ MonoBehaviour:
       newCharaLookInt: -1
     - storySentenceText: "What was that? You swore you just heard something that wasn\u2019t
         your game."
-      _audioClipStart: {fileID: 8300000, guid: f8563ca16662b4e25873d826e81839c4, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: df6b733793c8dd84dbfab624682e7398, type: 3}
       _audioClipVolume: 1
       newBGImage: {fileID: 0}
       animationToStart: 
@@ -336,7 +336,7 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
     - storySentenceText: '3:'
-      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
       _audioClipVolume: 0.125
       newBGImage: {fileID: 0}
       animationToStart: 
@@ -376,7 +376,7 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
     - storySentenceText: H-hewwo? Am I saying that right?
-      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
       _audioClipVolume: 0.125
       newBGImage: {fileID: 0}
       animationToStart: 
@@ -414,8 +414,8 @@ MonoBehaviour:
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToStart: 
-      charaName: 
-      useName: 0
+      charaName: You
+      useName: 1
       spawnCharacter: -1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
@@ -471,7 +471,156 @@ MonoBehaviour:
       spawnCharacter: -1
       newCharaLook: {fileID: 21300000, guid: e5c7b81f110464fc1adaf6ec735b4f71, type: 3}
       newCharaLookInt: 0
-  - _storySentence: []
-  - _storySentence: []
+  - _storySentence:
+    - storySentenceText: "It\u2019s a video game on my phone. Buying the actual system
+        for it would be too expensive, so I just downloaded this illegal app to play
+        it. "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "Jin-Woo\u2019s eyes light up at the word illegal."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: I LOVE illegal things!!! May I test out your outlaw device?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: e8393139d2ca1469f81fbc0279b5bc26, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: You hand them your phone and watch as they fight and lose
+        to the first boss.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: FUCK!!! How do I try again? Why do I have to mess with magic?
+        Why can't I just stab that old man???
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: "That\u2019s not how battling works! But it would be easier
+        if you could do that\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "Here, try combo-ing moves\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+  - _storySentence:
+    - storySentenceText: "Uh, Nothing! It\u2019s nothing!! "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: 'You grab your phone and stuff it into your pocket. You really
+        hope your cheeks aren''t as red as they feel. '
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "I see. Don\u2019t worry, I won\u2019t pry. "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 88dff888becdb4ee2a406dce4806f98a, type: 3}
+      newCharaLookInt: 0
+    - storySentenceText: 'I know all about blood secrets. '
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: fbf7a7e2e3d7341bc9014633dee54c98, type: 3}
+      newCharaLookInt: -1
+    - storySentenceText: Yeah, Jin-Woo is definitely too cool to be interested in
+        anything you like.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: 
+      useName: 0
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: "I don\u2019t believe you. Tell me one blood secret you\u2019ve
+        known about. "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: You
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+    - storySentenceText: Well it begins with five witches, a cave, and me as their
+        resident diety...
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Jin-Woo
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
+      newCharaLookInt: 0
   - _storySentence: []
   - _storySentence: []
