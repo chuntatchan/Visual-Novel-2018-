@@ -78,7 +78,7 @@ MonoBehaviour:
       newCharaLookInt: -1
     - storySentenceText: "What was that? You swore you just heard something that wasn\u2019t
         your game."
-      _audioClipStart: {fileID: 8300000, guid: df6b733793c8dd84dbfab624682e7398, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: f8563ca16662b4e25873d826e81839c4, type: 3}
       _audioClipVolume: 1
       newBGImage: {fileID: 0}
       animationToStart: 
@@ -336,7 +336,7 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
     - storySentenceText: '3:'
-      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
       _audioClipVolume: 0.125
       newBGImage: {fileID: 0}
       animationToStart: 
@@ -376,7 +376,7 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
     - storySentenceText: H-hewwo? Am I saying that right?
-      _audioClipStart: {fileID: 8300000, guid: 2e91af046c3b67b4583ba7490a8a64e3, type: 3}
+      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
       _audioClipVolume: 0.125
       newBGImage: {fileID: 0}
       animationToStart: 

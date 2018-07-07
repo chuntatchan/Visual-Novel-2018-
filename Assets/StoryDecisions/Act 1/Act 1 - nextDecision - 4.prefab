@@ -55,6 +55,6 @@ MonoBehaviour:
   prompt: '!!!! What was that?! Explain it to me immediately!!! '
   storyStrings: 4
   nextDecisions:
-  - {fileID: 114049259547592310, guid: 4b90e78937c7d6d4a8046609a26817ea, type: 2}
-  - {fileID: 114049259547592310, guid: 9e19dcd941f778d4d8a36cc7e0cdb7d3, type: 2}
+  - {fileID: 114049259547592310, guid: d6a6da15d3c8644c2b6d1d4b3ac957da, type: 2}
+  - {fileID: 114049259547592310, guid: d3bf3173850d24058b0b48f0a6af55dc, type: 2}
   _isChoice: 0
