@@ -620,5 +620,16 @@ MonoBehaviour:
       spawnCharacter: -1
       newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
       newCharaLookInt: 0
-  - _storySentence: []
+  - _storySentence:
+    - storySentenceText: TO BE CONTINUED... [force quit here cause I'm too lazy to
+        implement a quit button]
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToStart: 
+      charaName: Dev Team
+      useName: 1
+      spawnCharacter: -1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
   - _storySentence: []

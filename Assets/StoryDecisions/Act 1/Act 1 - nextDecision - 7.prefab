@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   optionString: 
-  prompt: TO BE CONTINUED
+  prompt: 
   storyStrings: 7
   nextDecisions: []
   _isChoice: 0
