@@ -54,9 +54,7 @@ MonoBehaviour:
   StoryLinesArray:
   - _storySentence:
     - storySentenceText: "It\u2019s Gym Class. You always skip; you have zero interest
-        in running around and being sweaty for an hour. Today, you told the Coach
-        your head hurts and you need to see the nurse. You are now sitting behind
-        the Gym playing a video game emulator on your phone."
+        in running around and being sweaty for an hour. "
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}

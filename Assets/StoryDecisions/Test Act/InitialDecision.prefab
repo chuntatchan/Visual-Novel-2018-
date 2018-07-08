@@ -56,7 +56,7 @@ MonoBehaviour:
     and all...
   storyStrings: 0
   nextDecisions:
-  - {fileID: 114074720139206564, guid: a0e323fb6ff294a1cad232959eb69eee, type: 2}
-  - {fileID: 114074720139206564, guid: 32fe6234636cb4c049293e30d9ea2e66, type: 2}
-  - {fileID: 114074720139206564, guid: 4048d2dbaedac4069af19f11588be230, type: 2}
+  - {fileID: 114074720139206564, guid: fba9bd520ca174052b490d38db735079, type: 2}
+  - {fileID: 114074720139206564, guid: 66d13d496725e4b40a1d9b71e689320f, type: 2}
+  - {fileID: 114074720139206564, guid: 0f019552d2746424fb3ebd1d715d20ed, type: 2}
   _isChoice: 1
