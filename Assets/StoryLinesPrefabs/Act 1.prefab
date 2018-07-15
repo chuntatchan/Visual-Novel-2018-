@@ -245,7 +245,7 @@ MonoBehaviour:
       spawnCharacter: -1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
-    - storySentenceText: YES! Thank It looks like we have more in common than I thought,
+    - storySentenceText: YES! It looks like we have more in common than I thought,
         human! We both like this spot, and we both like eating people!!
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
@@ -448,8 +448,7 @@ MonoBehaviour:
       spawnCharacter: -1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
-    - storySentenceText: On the ground, your phone beeps. The Pokemon game is still
-        open.
+    - storySentenceText: On the ground, your phone beeps. The game is still open.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}

@@ -172,9 +172,20 @@ public class VNMain : MonoBehaviour {
 
     void Text()
     {
+        // Change message to replace pronouns and playerName
         message = messageToDisplay;
         tbox.text = "";
         StartCoroutine(TypeText());
+    }
+
+    private string ReplaceWords(string message, string key, string newWord)
+    {
+        string newMessage = message;
+        while (newMessage.Contains(key))
+        {
+            newMessage.Replace(key, newWord);
+        }
+        return newMessage;
     }
 
 }

@@ -76,6 +76,7 @@
     <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
     <Compile Include="Assets\Scripts\Decision.cs" />
     <Compile Include="Assets\Scripts\SceneManagement\transitionSceneTo.cs" />
+    <Compile Include="Assets\Scripts\setPrefs.cs" />
     <Compile Include="Assets\Scripts\StoryLines.cs" />
     <Compile Include="Assets\Scripts\VNMain.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
