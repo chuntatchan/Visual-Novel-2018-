@@ -24,4 +24,6 @@ public class storySentence {
     public int spawnCharacter = -1;
     public Sprite newCharaLook;
     public int newCharaLookInt = -1;
+    public Color textBoxColor;
+    public FontStyle _fontStyle;
 }

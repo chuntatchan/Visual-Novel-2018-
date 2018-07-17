@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class VNMain : MonoBehaviour {
 
+    [Header("Story")]
 	public StoryLines storyLines;
-	public Text tbox;
-	public GameObject[] Characters;
+	
 
 	private bool isPaused;
 	[SerializeField]
@@ -20,6 +20,17 @@ public class VNMain : MonoBehaviour {
 	[SerializeField]
 	private Decision currentDecision;
 	private StoryStrings storyStrings;
+
+    [SerializeField]
+    private float letterPause;
+
+    [Header("UI")]
+    [SerializeField]
+    private Image mainTbox;
+
+    public Text tbox;
+    public GameObject[] Characters;
+
     [SerializeField]
     private GameObject nameTag;
     [SerializeField]
@@ -28,13 +39,11 @@ public class VNMain : MonoBehaviour {
     private AudioSource audioSource;
 
 
-
     private bool canGetNextLine;
 
     private string messageToDisplay;
     private string message;
-    [SerializeField]
-    private float letterPause;
+
 
 
 
