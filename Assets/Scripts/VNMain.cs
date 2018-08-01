@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class VNMain : MonoBehaviour {
 
@@ -27,7 +28,9 @@ public class VNMain : MonoBehaviour {
     [Header("UI")]
     [SerializeField]
     private Image mainTbox;
-
+	public Image fadeOutScreen;
+	[SerializeField]
+	private float fadeOutDelta;
     public Text tbox;
     public GameObject[] Characters;
 
@@ -49,6 +52,7 @@ public class VNMain : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		fadeOutScreen.gameObject.SetActive (false);
         canGetNextLine = true;
         storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
@@ -56,6 +60,21 @@ public class VNMain : MonoBehaviour {
 		messageToDisplay = storyStrings._storySentence [linesCounter].storySentenceText;
         Text();
 		currentDecision = startingDecision;
+	}
+
+	IEnumerator activateNextScene() {
+		fadeOutScreen.gameObject.SetActive (true);
+		float alpha = fadeOutScreen.color.a;
+		while (alpha > 0) {
+			alpha -= fadeOutDelta;
+			fadeOutScreen.color = new Color (fadeOutScreen.color.r, fadeOutScreen.color.g, fadeOutScreen.color.b, alpha);
+			yield return new WaitForEndOfFrame ();
+		}
+
+		//Scene Change
+		SceneManager.LoadScene();
+
+		yield return new WaitForEndOfFrame ();
 	}
 	
 	// Update is called once per frame
@@ -71,10 +90,13 @@ public class VNMain : MonoBehaviour {
                 {
 
                     linesCounter++;
-                    if (storyStrings._storySentence.Length == linesCounter)
-                    {
-                        activatePrompt();
-                    }
+					if (storyStrings._storySentence.Length == linesCounter) {
+						if (currentDecision.isContinueToNextScene ()) {
+							StartCoroutine (activateNextScene());
+						} else {
+							activatePrompt ();
+						}
+					}
                     else
                     {
                         if (canGetNextLine)

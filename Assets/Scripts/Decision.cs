@@ -13,6 +13,10 @@ public class Decision : MonoBehaviour {
 	private Decision[] nextDecisions;
     [SerializeField]
     private bool _isChoice = true;
+	[SerializeField]
+	private bool _isContinueToNextScene = false;
+	[SerializeField]
+	private string nextScene;
  
 
 	// Animation? Not sure how to set that up yet.
@@ -47,5 +51,13 @@ public class Decision : MonoBehaviour {
     {
         return _isChoice;
     }
+
+	public bool isContinueToNextScene() {
+		return _isContinueToNextScene;
+	}
+
+	public string GetNextScene() {
+		return nextScene;
+	}
 
 }
