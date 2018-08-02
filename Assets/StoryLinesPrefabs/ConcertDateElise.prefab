@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4843536330081424}
   - component: {fileID: 114699491732355808}
   m_Layer: 0
-  m_Name: IntroElise
+  m_Name: ConcertDateElise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,8 +53,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StoryLinesArray:
   - _storySentence:
-    - storySentenceText: AUgh. Biology. You hate biology. Bodies are way too weird
-        to think about. Who decided a class on them was a good idea?
+    - storySentenceText: "It\u2019s night-time, just barely dusk. You\u2019re at your
+        desk crawling through homework, the same place you\u2019ve been for the past
+        three hours."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -66,10 +67,10 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "You think the teacher is saying something about a lab, but
-        honestly you couldn\u2019t care less. All you can think about are the transfer
-        students. Will there be more of them? Will you see the ones you\u2019ve met
-        so far again?"
+    - storySentenceText: "Maia\u2019s at lacrosse practice, so she hasn\u2019t been
+        able to help you or text you memes of encouragement. All the words on your
+        paper are blurring together. You groan and knock your head against the desk.
+        This isn\u2019t the worst kind of torture ever, but it sure feels like it."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -81,8 +82,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "You realize you\u2019re blushing as you think about Addison.
-        Come on, focus!! Look at the microscope\u2014is that someone at the door?"
+    - storySentenceText: Wait, did you just hear a second knock?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -94,8 +94,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: It is! The door is opening!! YES!!! The teacher is stopping
-        lab talk!!!!
+    - storySentenceText: '!! There it is again!'
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -107,7 +106,9 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: Holy Mother of God.
+    - storySentenceText: You look up and almost fall out of your chair when you see
+        Elise perched on your windowsill knocking on your window. You frantically
+        pull up the windowsill and she slides into your room.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -119,190 +120,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "Suddenly, you\u2019re at a loss for words. In front of you
-        is one of the most beautiful girls you\u2019ve ever seen in your short gay
-        life."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: It feels like your brain is on fire. What do you even process
-        first? Her long, tangled hair? Her soft lips and doe eyes? The slim, toned
-        muscles of her shoulders?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: You think your mouth is hanging open cartoon-style. At the
-        front of the room, the teacher clears her throat.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Ah, Elise right? So nice of you to join us.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Teacher
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Happy to be here! I didn\u2019t want to come until now."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Excuse me?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Teacher
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I\u2019m just excited for this class!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Glad to hear. We\u2019re doing partner work today, so why
-        don\u2019t you take the open seat next to <pname> so you can catch up on the
-        lab?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Teacher
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "To your horror and extreme delight, she gestures to the
-        empty seat next to you. The stranger\u2014Elise\u2014walks over and sits down
-        in one smooth movement. She\u2019s so cool, she doesn\u2019t even have a backpack."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Fuuuuuuck. You were already bad at biology. This was about
-        to be the hardest lab of your life.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: You steal a look at her from the corner of your eye. She
-        sees and smiles at you. Holy shit. Fuck. Dicks. Shit shit shit shit. How are
-        you going to do this?!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: You look helplessly across the room at Maia. She holds up
-        her phone and points desperately at it.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: You have like fifteen texts.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-  - _storySentence:
-    - storySentenceText: Is everything alright?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: I-uh, yes!! Just some texts from a friend, hahahah. Class
-        gets slow sometimes.
+    - storySentenceText: Elise!! How did you find my house?!
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -314,9 +132,8 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Oh, I understand! I hope you don\u2019t mind, but I kind
-        of peeped at the end. Anything beyond a double text stresses me out, and I
-        was worried if you were okay."
+    - storySentenceText: Hey stranger! I live right next to you actually, near the
+        creek down the road. It was easy to see you walking home!
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -328,9 +145,9 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Peeking is kind of a snoopy thing to do, but you can\u2019t
-        find it in yourself to be mad at her for some reason. Hopefully she didn\u2019t
-        see you and Maia freaking out."
+    - storySentenceText: "This would probably be way creepier if it wasn\u2019t Elise
+        saying it. You shrug it off and try not to be overwhelmed by the fact that
+        Elise is in. Your. Room."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -342,8 +159,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "Yes, I am okay!! A lot of texts stresses me out too. Sometimes
-        I wish I could curl up and hide from my phone in a blanket burrito\u2026"
+    - storySentenceText: What are you doing here?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -355,384 +171,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: Wow. So smooth. How much does it cost to get buried alive?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Somehow, she laughs.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "That\u2019s really cute! I could totally see you in wraps."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: She winks. You are Definitely Blushing.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Anyways, what\u2019s this lab about?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Um, microscopes and leaves? Looking at leaves.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: She slides the lab paper out from in front of you and skims
-        it.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Ooh, don\u2019t worry. This one\u2019s pretty easy. All
-        we need to do is take the leaves, take a pressing of them, and look at it
-        under a microscope for leaf parts."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Woah, nice! Have you done something like this before?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Something like that, yeah. I\u2019ve gotten around."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Anyways, do you want to start on the pre-lab report?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Uhh...
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Um, what was a pre-lab report again? You weren\u2019t kidding
-        when you said you weren\u2019t good at biology. Usually you had Maia to help
-        you, but you two were separated last lab for \u201Cexcessive horseplay\u201D."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Everything alrght? You look concerned.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I\u2014Yeah! It\u2019s fine!! Everything\u2019s fine! Just,
-        what\u2019s a pre-lab report again?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Oh no, are you bad at biology?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "There\u2019s just so much of it to think about..."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Don\u2019t worry. Biology is boring anyways. I can do this
-        all in a few minutes."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Elise seems to think for a second, and then perks up.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "You seem interesting though! Tell me a little about yourself.
-        What\u2019s your darkest secret\u2014No, wait. What is something dangerous
-        you\u2019ve done?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Elise is looking at you with an almost manic gleam in your
-        eye.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Uh, isn\u2019t this a little forward?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Oh! I\u2019m so sorry! I always forget my manners."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Hmm\u2026.I know!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "For every thing you tell me about yourself, I\u2019ll fill
-        out one part of the lab! I\u2019m great at faking results. You won't need
-        to do anything!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "A pretty girl who will do your lab work for you? It feels
-        like you\u2019re in the beginning of a fantasy you\u2019ve probably had."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Yet, you can\u2019t help but to hesitate. It feels almost
-        too good to be true. What if she learns about something embarrassing and holds
-        it over your head forever?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Elise is staring at you expectantly. What should you do?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-  - _storySentence:
-    - storySentenceText: This is way too tempting to pass up. How could you not take
-        this deal?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "I\u2019m in. Ask away."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Yay!!! I was hoping you\u2019d say that!"
+    - storySentenceText: Did you forget about my promise already?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -745,20 +184,8 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "You\u2019re no stranger to oversharing, but maybe this isn\u2019t
-        the best place."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Your offer is tempting, but I think I\u2019ll be okay."
+    - storySentenceText: "I\u2019m sorry, what promise again? My brain is fried from
+        schoolwork."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -770,8 +197,8 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Aww, I was hoping you wouldn\u2019t say that. Can you do
-        the first question then?"
+    - storySentenceText: "The concert, silly! It\u2019s tonight, and I\u2019m here
+        to whisk you away!"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -783,123 +210,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: You look at the lab paper.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "\u201CWhat are some of the safety, ethical, and conservational
-        considerations which must be taken into mind when harvesting Avicennia germinans
-        from its natural habitat? State each caution with a potential workaround.\""
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Uhh, is it too late to ask for a take back?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Nope! I\u2019m glad you came around~"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: "She scooches her chair over and her shoulder brushes against
-        yours. You\u2019re blushing so hard you think you\u2019re gonna explode."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "I\u2019ll start easy. Tell me something about yourself."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: I played lacrosse for a few years, but had to stop when I
-        got pile-drived into the dirt and hurt my ankle.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: That sounds so grisly! Was it worth it?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "In hindsight, yes. That\u2019s how I met my best friend
-        Maia."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "You look across the room with Elise at Maia. Maia sees you
-        and waves frantically. She\u2019s blushing super hard."
+    - storySentenceText: "That\u2019s right! You totally forgot about it!!"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -912,8 +223,8 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
   - _storySentence:
-    - storySentenceText: "I\u2019ve been to three continents! My mom is a flight attendant,
-        so we get good airline deals."
+    - storySentenceText: Oh, right! The concert! I was so wrapped up in work, I almost
+        forgot!
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -925,45 +236,8 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: Oh wow! A seasoned traveler, and all in less than twenty
-        years!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I didn\u2019t really get out until after the railroad became
-        more mainstream."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I\u2013what?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Nothing!
+    - storySentenceText: "That\u2019s right! It\u2019s tonight, and I have to take
+        you. It\u2019s my favorite band!"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -976,8 +250,8 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: Elise scribbles something down on the lab report and tucks
-        her pencil(your pencil) behind her ear.
+    - storySentenceText: Elise does a little spin and plops down onto your bed. How
+        is she so cute all the time?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -989,7 +263,412 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "Next! What\u2019s something that makes you nervous?"
+    - storySentenceText: "Give me a second to grab some warmer clothes and I\u2019ll
+        be ready!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You\u2019re in the middle of pulling on your jacket when
+        you remember the pile of work on your desk. You turn and your heart sinks."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Fuck, I forgot how much work I still need to do by tomorrow\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Let me take a look at it.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Elise rifles through the pile of work in less than a minute.
+        She stacks it back up and tosses it aside.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "All of this is pretty easy. I\u2019ll do it for you later
+        tonight if we leave right now. I want to get a spot at the front!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Now this is an offer you can\u2019t refuse."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "I\u2019m in!! But we\u2019re gonna have to sneak out my
+        window."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "It\u2019s dark, but barely. Countless stars light up the
+        sky on a beautiful cloudless night. Elise helps you down from the window,
+        and takes it all in, eyes sparkling."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Isn\u2019t it amazing? I love going for a run on nights
+        like this."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: It really is. You run at night?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Isn\u2019t it clear yet that I do as I please?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Fair enough. So, where is the concert?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Just one town over! It's only about ten miles from here actually.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Wait, ten miles?! How are we going to get there?? I don\u2019t
+        know how to drive!!!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You start picking at your nails, trying to quell the rising
+        feeling of panic in your stomach. Elise was never one for planning. What if
+        everything\u2019s ruined because neither of you thought of transportation?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Elise takes one of your hands and puts it on her shoulder.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Don\u2019t worry. I have an idea. Close your eyes for me?
+        And don\u2019t move your hand."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: You do as she asks. If she was going to murder you, she probably
+        would have done it by now.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Elise\u2019s shoulder is slight beneath your palm, but as
+        seconds pass something about it...changes. The texture of her shirt feels
+        more coarse. It\u2019s a cold night, but somehow she\u2019s gotten warmer
+        too."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: You hear a deep huff and open your eyes.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Elise is gone. In her place is a massive, jet-black horse
+        with what looks like seaweed tangled into its wild mane, your hand one one
+        of its massive flanks.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You stumble backwards and fall gracelessly on your butt.
+        The horse snuffles a little, almost like it\u2019s laughing at you."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Holy\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Don\u2019t be nervous!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: What? Elise? Where are you??
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You can hear her voice clear as day, but it sounds different
+        somehow. Like she\u2019s talking to you over a phone with a perfect connection."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: You never took your hand off of my shoulder, right?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "\u2026.I suppose not..."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Does that help answer the question?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: '...'
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "It\u2019s okay, <pname>, this is always the part that surprises
+        humans. I figured I\u2019d get it over with quickly."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: <pname>, have you ever heard of a Kelpie?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1002,8 +681,7 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "I love animals, but what\u2019s the deal with wasps? The
-        idea of getting stung makes me crazy nervous."
+    - storySentenceText: "Yes, I\u2019ve heard of them."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1015,8 +693,9 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "That\u2019s very fair. Wasps have never contributed to anything
-        productive."
+    - storySentenceText: "So you\u2019ve probably heard the part about how we drown
+        people too, haven\u2019t you? How if you ride on our backs we\u2019ll make
+        you go insane?"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1028,73 +707,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: Okay, this might sound silly, but the ocean kind of freaks
-        me out. All of that open water...it would be so easy for me to get lost.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Oh~? Water makes you nervous? We\u2019re definitely going
-        to have to hang out more."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: She presses her side to yours for just a second. Holy shiiiiiit.
-        She's so sooooft.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-  - _storySentence:
-    - storySentenceText: "Um, not too unconventional, but small spaces kind of scare
-        me. I don\u2019t like not being able to move."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Even if you were stuck with someone else?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: I-It would depend on the person I think!
+    - storySentenceText: "I don\u2019t remember that part....but thanks for the refresher?"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1107,8 +720,108 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "Elise writes down more. It looks like she\u2019s halfway
-        done already."
+    - storySentenceText: No, can you explain?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "It\u2019s\u2014we\u2019re\u2014a very old European monster.
+        We can shapeshift between a few forms, and we don\u2019t age."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Most of what we used to do was luring people into lakes as
+        horses and people, and drowning them to eat.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "\u2026.ah. Thank you for being candid, I guess."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I\u2019m...assuming murder has gone out of vogue?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: All of that is besides the point.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I\u2019m still as free as I was 100 years ago, but I\u2019ve
+        given up killing ever since I left my lake."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I\u2019m here to go to a concert with you <pname>. And I
+        would love if you would go with me."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "The horse\u2014Elise\u2014kneels down in front of you."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1120,7 +833,20 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: Who was your first kiss? Oh! And what was it like?
+    - storySentenceText: "I\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "It\u2019s okay if you don\u2019t want to come! I understand
+        that this is off-putting."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1132,8 +858,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "This one\u2019s easy, actually. I kissed Chris E. in the
-        second grade at our fake wedding. He gave me a pencil bouquet."
+    - storySentenceText: "No! It\u2019s not that!"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1145,97 +870,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Looking back on it, I can\u2019t help but to think of how
-        silly it was."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "That doesn\u2019t sound silly at all though! It sounds incredibly
-        sweet."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "It\u2019s just, we\u2019re all so different now. Everything
-        is a lot different."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "It\u2019s amazing what time does to the world, isn\u2019t
-        it?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Yeah, it is.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: I bet you were a good kisser!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Heheh, well I mean Chris looked pretty happy. I think. Maybe.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Elise bites her lip as she writes the next part. You don\u2019t
-        think she even notices herself doing it, but you can\u2019t stop staring at
-        her mouth."
+    - storySentenceText: You blush.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1247,8 +882,400 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "Alright, last one. Is there anything you\u2019ve secretly
-        always wanted to do?"
+    - storySentenceText: "It\u2019s just...somehow you\u2019re still beautiful as
+        a horse? I can\u2019t explain it. Maybe because I know it\u2019s you?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Oh boy. Wait until Maia hears about this. She\u2019s gonna
+        call you a furry until your bones turn into horrible furry dust."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You can feel Elise smiling. Somehow, being furry dust doesn\u2019t
+        sound so bad."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "As much as I would like it, we don\u2019t have all night
+        for you to be sweet. We have to get those seats!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You climb onto Elise\u2019s back, tangling her thick mane
+        between your fingers. The two of you take off into the inky night."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You don\u2019t have any previous experience to compare it
+        to, but this concert is insane. Smoke pours out from vents shaped like dragons,
+        and neon lights flash above you in a never-ending series of patterns. You
+        and Elise are right at the front, surrounded by throngs of cheering people."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: You and Elise are right at the front, surrounded by throngs
+        of cheering people. You have to shout to be heard above all the noise.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "This is crazy!!! I can\u2019t believe I\u2019m here!!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Two songs ago, the lead member ripped off his shirt and
+        threw it into the crowd. Elise managed to grab it, and she\u2019s waving it
+        as a flag."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "I told you you\u2019d like it! This is one of their last
+        shows on this tour, so the setlist is basically perfect!!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "She\u2019s right. Every song is amazing. The band plays
+        what seems like their last song, and the lights go dark."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Phew. You\u2019re sweaty from jumping so much, and the crowd
+        was starting to get to you. Being at the front also means everyone presses
+        into you all at once without any reprieve. You\u2019re ready to lay in bed
+        and not have any human contact for several hours."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Is it\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Wait! The speakers blare with a ripped guitar chord, and
+        the lights flick back on. An encore, you think. Or is it more of the concert?
+        You can\u2019t tell. You\u2019ve never been to an encore before?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Panic starts building in your stomach. What if that was
+        just an intermission? You can\u2019t do all of that again."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Elise must have sensed your distress over all of the action,
+        because you suddenly feel a hand around your waist pulling you away from all
+        the people.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "I\u2019m here! Don\u2019t let go of me."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: You cling to her arm for your life. Elise takes you to an
+        open area where you can still hear the band. The music is fainter, and there
+        is no smoke, but it has a much calmer vibe. You can see the stars again.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You take a moment to calm your breathing, focusing on the
+        stars and tuning out the scattered people around you. When you\u2019ve composed
+        yourself, you turn to Elise."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Thank you for saving me back there. I don\u2019t know what
+        I would have done."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Out here is better anyways. Much more space for us.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: She takes your hand and puts it on her waist, clasping the
+        other with hers. The band plays a slower song, and you dance to it.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Normally, your brain would be fried from being so close
+        to Elise, but you\u2019re so drained from the concert that all you can focus
+        on is stepping in time. You\u2019re cold now that you\u2019re not surrounded
+        by people, but Elise\u2019s body against yours keeps you warm."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Shit! You lose the beat for a moment, and step on her foot.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Crap! I\u2019m sorry!!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Elise giggles and takes the lead.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You don\u2019t need to be sorry! It\u2019s cute."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "This is one of my favorite things that humans have made.
+        Dance. Music, too. Before this, we didn\u2019t have anything."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Elise
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "And here I\u2019m thinking of how weak I am for not being
+        able to turn into a horse and live forever. Do you really believe humans are
+        that great?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Elise brushes her fingers against your cheek.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "If I didn\u2019t, would I be here?"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1261,22 +1288,9 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "Secretly, I\u2019ve always wanted to go to a concert! I\u2019ve
-        never been because Maia doesn\u2019t like crowds, and I don\u2019t want to
-        go alone."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: If possible, Elise brightens up even more. She looks like
-        a little beacon of excitement at this point.
+    - storySentenceText: You cradle her hand against you, pulling her closer by her
+        waist. Her eyes widen slightly, and then close. When you kiss, she tastes
+        like the ocean.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1288,20 +1302,9 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "No. Way. You\u2019re joshing me. Do people still say joshing?
-        I don\u2019t care."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Elise grabs you by the shoulders, eyes twinking.
+    - storySentenceText: "The only thing that breaks you apart is the moon behind
+        Elise\u2019s head. You suddenly remember you have a life you have to get back
+        to, and school in only a few hours."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1313,20 +1316,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: "You are coming to a concert with me\u2014what\u2019s your
-        name again?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Um, <pname>?
+    - storySentenceText: Would we be able to get home soon?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1338,9 +1328,19 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "You are coming to a concert with me, <pname>! I know the
-        best band. I\u2019ve been following them for years, and they\u2019re playing
-        here this week!"
+    - storySentenceText: Elise runs her fingers through your hair.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: I think I can arrange that.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1353,19 +1353,32 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "You won\u2019t believe me if I tell you."
+    - storySentenceText: You take her hand, and twirl her gently. Elise laughs, grabs
+        you and spins with you until the two of you end up on your backs in the grass.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: You
-      useName: 1
+      charaName: 
+      useName: 0
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Aww, come on, try me! I told you, I\u2019ve been around."
+      _fontStyle: 2
+    - storySentenceText: Elise clasps your hand in hers.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You should probably get home soon, shouldn\u2019t you?"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1377,8 +1390,7 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Alright, but it\u2019s pretty out there. Don\u2019t judge
-        me too hard."
+    - storySentenceText: I can spare a few more minutes.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1390,99 +1402,8 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "There\u2019s a diner a few blocks from here called Willie\u2019s
-        Pancakes. They have a Wall of Fame if you eat more than ten pancakes in under
-        an hour, and I\u2019m determined to get up there."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: You brace yourself for a wall of judgement, but if anything,
-        Elise looks even more excited.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: '!!! Are her eyes welling up?!'
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: '!!!!! She takes your hands in hers!!!!'
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "I love\u2026\u2026..diners\u2026\u2026..so much\u2026.."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "We have to go to this diner together and do that challenge!!
-        I\u2019ll do anything. I\u2019m super good at eating pancakes too. I have
-        and will kill for a good pancake."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: She squeezes your hands.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
   - _storySentence:
-    - storySentenceText: "Oh my goood. Is this real life? Have you died and gone to
-        gay heaven? If you\u2019re in a coma, now is the time to wake up. Please let
-        this be real life. You pinch your leg just to be sure."
+    - storySentenceText: You dream of neon lights lighting up the galaxy.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -1494,190 +1415,3 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
-    - storySentenceText: Ow!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Is that a yes?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Y-Yes!!! Absolutely!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: The bell rings for the end of class. Elise chucks your finished
-        lab report at the pair of desks in front of you, and gets up to leave.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: See you soon, <pname>~
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "And tell your friend she\u2019s cute too!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Elise
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Everyone\u2019s leaving, but you\u2019re too shell-shocked
-        to move. All you can think about is Elise."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: You snap back to reality when you feel Maia shaking your
-        shoulders.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: Good job answering my texts, nerd! She left before I could
-        lift you up.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Maia
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: S-she wants to hang out with me.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: What?!!?!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Maia
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: She said you were cute too.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: WHAT?!?!?!?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Maia
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Maia slings your shocked gay body over her shoulders in
-        a fireman\u2019s carry and walks out of the room, ignoring the teacher\u2019s
-        cries of protest."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 2
-    - storySentenceText: "Alright, I\u2019m gonna need full details here before next
-        class..."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Maia
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0

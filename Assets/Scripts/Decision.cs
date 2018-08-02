@@ -16,6 +16,8 @@ public class Decision : MonoBehaviour {
 	[SerializeField]
 	private bool _isContinueToNextScene = false;
 	[SerializeField]
+	private bool activateTextUI = false;
+	[SerializeField]
 	private string nextScene;
  
 
@@ -54,6 +56,10 @@ public class Decision : MonoBehaviour {
 
 	public bool isContinueToNextScene() {
 		return _isContinueToNextScene;
+	}
+
+	public bool GetIsActivateTextUI() {
+		return activateTextUI;
 	}
 
 	public string GetNextScene() {
