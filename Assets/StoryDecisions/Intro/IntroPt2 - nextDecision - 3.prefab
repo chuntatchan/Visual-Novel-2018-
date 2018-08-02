@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4437298381612500}
   - component: {fileID: 114049259547592310}
   m_Layer: 0
-  m_Name: IntroPt1 - End
+  m_Name: IntroPt2 - nextDecision - 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -51,13 +51,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11488fae3ed434de98a9d7e880b0dbb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  optionString: 
-  prompt: "You! You\u2019re the hewwo person!! What are you doing here? This is my
-    spot!"
-  storyStrings: 0
+  optionString: Eat the pod
+  prompt: 
+  storyStrings: 4
   nextDecisions:
-  - {fileID: 114049259547592310, guid: 62662ebee7a684b2cb7f5127ebc9f90d, type: 2}
-  - {fileID: 114049259547592310, guid: d77f7df3ade5f4ad785d41ce3f6a1a79, type: 2}
-  - {fileID: 114049259547592310, guid: 98c2213be126c435ba394ce39cdc3c52, type: 2}
-  _isChoice: 1
+  - {fileID: 114049259547592310, guid: d287b0ba4e114479bad6e6c4cc4f1472, type: 2}
+  _isChoice: 0
   _isContinueToNextScene: 0
+  nextScene: 

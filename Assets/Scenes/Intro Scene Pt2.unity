@@ -141,14 +141,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b9f06dbf09c5e405d81f448d76b2b1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  storyLines: {fileID: 114699491732355808, guid: 38d57c3dc983241df969eb9e54140125,
+  storyLines: {fileID: 114699491732355808, guid: 99bd94be019b6443ba5d2d3bb3655ead,
     type: 2}
   linesCounter: 0
   Decisions:
   - {fileID: 2130145587}
   - {fileID: 1608456888}
   - {fileID: 503778755}
-  startingDecision: {fileID: 114049259547592310, guid: ec3358bd6e976455e80c5db9cb158056,
+  startingDecision: {fileID: 114049259547592310, guid: 74038022a64fb4981a9bbc0a16f54603,
     type: 2}
   currentDecision: {fileID: 0}
   letterPause: 0.001
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 435867978}
   - component: {fileID: 435867977}
   m_Layer: 5
-  m_Name: Jin
+  m_Name: Maia [NeedArt]
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8539c0093cb9e4b968c63d0ad2f4700a, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1119,8 +1119,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.0049801, y: -3.94}
-  m_SizeDelta: {x: 1600, y: 891.92}
+  m_AnchoredPosition: {x: -0.0024927, y: -3.94}
+  m_SizeDelta: {x: 1600, y: 892}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &818969169
 MonoBehaviour:

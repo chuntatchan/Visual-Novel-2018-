@@ -1,0 +1,1194 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1063971614314210}
+  m_IsPrefabParent: 1
+--- !u!1 &1063971614314210
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4843536330081424}
+  - component: {fileID: 114699491732355808}
+  m_Layer: 0
+  m_Name: LunchDay2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4843536330081424
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063971614314210}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114699491732355808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1063971614314210}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75a7dff2ad66a434687e07c36395ed97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  StoryLinesArray:
+  - _storySentence:
+    - storySentenceText: "You and Maia have the whole table to yourselves today for
+        lunch. Usually, there\u2019s a baseball team that likes to sit here, but Maia
+        scared them off by pretending to have the flu."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "She\u2019s eaten her sandwich in three huge bites, and periodically
+        shows you memes as you eat lunch and work on a make-up test. You\u2019ve barely
+        touched both."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Okay, let me get this straight.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Our school is full of new transfers, and somehow you\u2019ve
+        gotten not one, but two of them to want to hang out with you?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I know, I can\u2019t believe it either. I have such little
+        charisma...I don\u2019t even like talking to our current classmates."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "There\u2019s just something really interesting about them\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "What, that they\u2019re crazy hot and mysterious?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Okay, fair, but also something else...I can\u2019t put my
+        finger on it. Maybe when I spend more time with them I\u2019ll figure it out."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Well I expect you to give me full details of everything
+        you do! And if one of them does you wrong\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Maia cracks her knuckles. As further emphasis, she picks
+        up your pencil and breaks it in half with one hand.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Hey! I was using that!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I needed to make a point of how much I\u2019ll protect you!
+        Besides, you borrowed it from me last week."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Oh, I did? I don\u2019t remember."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Maia hands you another pencil from her bag.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Come on, now get to\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: HUMAN!!!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 1
+      charaAnimation: 1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: You and Maia jumps as Jin-Woo appears out of thin air. Like,
+        literally out of thin air? How the heck did they get here so fast?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Geez! Control your volume much?!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "We are outside. Aren\u2019t I allowed to use an outside
+        voice here?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "That\u2019s besides the point! We were having a conversation,
+        you can\u2019t just run up and yell in the middle of it! Wait your turn."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: I am hearing your complaints, and I am electing to ignore
+        them. <pname>, who is this?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Yikes. Maia looks like she\u2019s about to explode. You
+        kick her beneath the table as a warning to not go off."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Maia, this is Jin-Woo. They\u2019re one of the transfer
+        students. I\u2019m teaching them how to play Ultimate Fighterz during Gym."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Of course they\u2019re a transfer."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Even though Maia doesn\u2019t look happy, she offers her
+        hand to Jin-Woo. They shake."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Nice to meet you, other human! I am Jin-Woo, <pname>\u2019s
+        friend. Do you also want to hear about the blood pacts I\u2019ve made?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia doesn\u2019t let go of Jin-Woo\u2019s hand. Uh oh..."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Um, Human?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You can call me Maia. I\u2019m sorry, but if you want to
+        be <pname>\u2019s friend, you\u2019re gonna have to pass a couple tests first."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia\u2019s grip tightens, and she bends the grip so both
+        of their elbows are resting on the table."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Do they have arm wrestling where you\u2019re from, Jin-Woo?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: I have heard of Ssireum, is it similar?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I think you\u2019ll catch on quick."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia catches Jin-Woo by surprise when she tries to slam
+        their fist down. Jin-Woo struggles for a second, but once they realize what\u2019s
+        going on they inch the hand-hold back to the center."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Surprisingly or not, they\u2019re totally even. It looks
+        like Jin-Woo is actually trying too. Maybe you should start going to Gym.
+        Or doing pushups. Something?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Pretty good! But you\u2019re gonna have to try harder to
+        beat me! I arm-wrestled both of the Lacrosse Captains last year for the number
+        3!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Do you think I will make this easy for you? I used to wrestle
+        tigers in the forest on my way out of Asia!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "The hand-hold jerks back to Maia\u2019s side, then to Jin-Woo\u2019s
+        side, then to the middle again. Neither side looks like it\u2019ll let up
+        anytime soon."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Jin-Woo and Maia both look like their eyes are about to
+        pop out of their heads. Maybe it\u2019s time for you to step in."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Hey, guys! Is there any way we can stop before one of you
+        breaks something? I\u2019m worried about the table. "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: There are definitely dents where their elbows are sitting.
+        The table is groaning with the force of the battle.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Fine, then you decide a winner!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: That sounds fair enough. <pname>, choose with honor!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: It still looks dead even. It really is up to whatever you
+        say.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+  - _storySentence:
+    - storySentenceText: "It\u2019s Maia by just a little bit!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Maia lets go of Jin-Woo and pumps both of her fists into
+        the air.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Victory is MINE!!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: To your relief, Jin-Woo looks more intrigued than upset as
+        he rubs his elbow.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "How amazing! I haven\u2019t met a human as strong-willed
+        and powerful as you since the riots in this country."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: "I\u2019m sorry Maia, it looks like it\u2019s Jin-Woo!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Maia drops the hand-hold and shakes her head.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: AHA! I have achieved victory! Take that!!!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Dammit! Thanks for being honest. I guess this means I need
+        to do more chin-ups. I knew my triceps were getting weak.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You were still a worthy foe! I haven\u2019t had to try that
+        hard in a very long time."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: You are Maia, correct? It would be my pleasure to call you
+        my ally. Together, we could arm wrestle anyone who gets in our way!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I like the sound of this proposal. I\u2019m in if it means
+        we can wrestle fascists into the dirt."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Obviously that is what this alliance entails. This is a zero-fascist-tolerance-alliance.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You aren\u2019t bad, Jin-Woo. But, I do have one more test."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia has a devious look on her face. Oh no, she\u2019s definitely
+        about to ask them a weird question."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Would you rather have the urge to lick lightbulbs or toes?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "What kind of test is this?! I\u2019d rather wrestle you
+        again!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "I\u2019ve already tested your body! This is a test of the
+        soul."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: <pname>, you have to answer too!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: "Lightbulbs, duh! I could just carry one around everywhere
+        and lick it in secret whenever I got the compulsion. You can\u2019t exactly
+        hide toe-licking."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: You always were more logical than me. I would lick lightbulbs
+        because I think it would make my tongue stronger and more heat resistant.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Wait\u2014you would lick them while they were on?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Don\u2019t judge me, light-licker!!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Both of you are much too tame.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Maia turns to Jin-Woo with a horrified expression. You look
+        at them with a similar face.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Jin-Woo, if you\u2019re implying what I think you\u2019re
+        implying\u2026"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Of course I would choose toe licking!! Do you know how powerful
+        that makes you?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: I have seen it with my own eyes. Walk into a room, lick a
+        toe, and instantly everyone will be paying attention to you with fear in their
+        hearts.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "You\u2019re disgusting, but I\u2019m also not brave enough
+        to test that power move which probably means it\u2019s a good one."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: "\u2026\u2026\u2026\u2026..toes."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: NooooOooOOOOOoO
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: '...'
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Explain yourself right NOW or I am going to kick you out
+        of this lunch group.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Life is short!! And I\u2019m pretty sure I could still find
+        someone who would love me."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Plus, can you imagine how much money I\u2019d make if I
+        ever got into camcorder stuff? I\u2019d be so\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "OKAY you can stop right there. I understand your reasoning,
+        even if it\u2019s a horrifying concept."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Would this be a bad time to say that I would also choose
+        this option?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "YES!!! Augh, I\u2019m at a table full of toe-lickers! Jin-Woo,
+        why?!?!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Just not a fan of lightbulbs. I had to lick them a lot to
+        stave off hunger when I was a stowaway, and the taste will never be the same
+        to me. Toes, on the other hand, give me a fresh start.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia looks like she\u2019s dying. Under the table, you and
+        Jin-Woo high five."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Toe lickers, the both of you\u2026.but I can\u2019t be too
+        upset. I did offer it as one of the options."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+  - _storySentence:
+    - storySentenceText: Maia holds out her hand a second time. This time, her and
+        Jin-Woo share a normal handshake.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Jin-Woo, I would like to officially welcome you as <pname>
+        and I\u2019s friend and fascist-puncher at arms."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: It is an honor to join the two of you!
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Jin-Woo
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "And an honor to have you! Now, before this lunch period
+        is over, you\u2019re going to tell me how to wrestle a tiger and win."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0

@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4843536330081424}
   - component: {fileID: 114699491732355808}
   m_Layer: 0
-  m_Name: Act 1
+  m_Name: Intro Pt2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -53,8 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   StoryLinesArray:
   - _storySentence:
-    - storySentenceText: "It\u2019s Gym Class. You always skip; you have zero interest
-        in running around and being sweaty for an hour. "
+    - storySentenceText: Oh yeah, that sounds about right.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -65,8 +64,10 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: This is laziness at peak performance. You could not be happier.
+      _fontStyle: 2
+    - storySentenceText: "Above you, the lights flicker. You look up and you realize
+        it\u2019s because they\u2019re dimming; all of them at the same pace. In only
+        a few moments, the whole house will be dark."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -77,21 +78,9 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "What was that? You swore you just heard something that wasn\u2019t
-        your game."
-      _audioClipStart: {fileID: 8300000, guid: f8563ca16662b4e25873d826e81839c4, type: 3}
-      _audioClipVolume: 1
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Is someone else there?
+      _fontStyle: 2
+    - storySentenceText: "You\u2019re about to search for some bulbs when you hear
+        a noise behind you. Something inside you knows it\u2019s some ghost bullshit."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -102,8 +91,8 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: You call out.
+      _fontStyle: 2
+    - storySentenceText: What do you do?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -114,8 +103,129 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Hewwo? Is someone there??? Hewwoooooooo?????
+      _fontStyle: 2
+  - _storySentence:
+    - storySentenceText: "Nuh uh. Nope. Not today, demons. You start running, but
+        it\u2019s like running through gelatin. Your legs are barely moving. The lights
+        are still dimming. You can barely see in front of you."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: You keep pushing forwards, but eventually everything turns
+        black. The ground gives out beneath you and you fall into the ocean.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Since when is the ocean beneath your house? The waves jostle
+        your body from side to side.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "A wave hits you right in the face and it\u2019s overwhelming.
+        The biggest wave you will ever feel. How is it so wet? You\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+  - _storySentence:
+    - storySentenceText: This demon is messing with the wrong nerd. You did karate
+        for 5 years, and could kill ten men with your bare hands at least.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "You turn around\u2014oh, yep, that sure is a ghost\u2014and
+        punch it directly in its huge ghost stomach. It howls in pain."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Hell yeah. You feel cool as fuck right now.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "The ghost screws up its face, and pukes all over you. You\u2019re
+        now covered in ghost puke."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: "Oh God. This is the worst feeling in the universe. It\u2019s
+        dripping all over your face. How does it feel so real? It won\u2019t stop
+        coming. You open your mouth, and\u2014"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+  - _storySentence:
+    - storySentenceText: Hmngh!
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -127,8 +237,8 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: Whoever it is, that should scare them off. Memes are the
-        best intimidation tactic when you have absolutely no physical strength.
+    - storySentenceText: You wake up wet on the bus. Your friend Maia is sitting next
+        to you, her phone in one hand and her open water bottle in the other.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -137,126 +247,36 @@ MonoBehaviour:
       charaName: 
       useName: 0
       newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Aw fuck.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: A figure is rounding the corner!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "Who\u2019s there? Who said \u201Chewwo\u201D??? What is
-        with you humans and your weird greetings?!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 1
-      charaAnimation: 0
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: It looks like another student has found your hiding place.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "The student dons an oversized hoodie paired with bright
-        leggings and painted nails. You aren\u2019t sure of their gender, but it doesn\u2019t
-        look like they\u2019re trying to present in any particular way."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Regardless, they look incredibly stylish. Like an angry pop-star
-        model.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: They finally notice you on the ground and jump.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "You! You\u2019re the hewwo person!! What are you doing here?
-        This is my spot!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
       newCharaLookInt: 0
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: "I\u2019ll do what I want, and there\u2019s nothing you can
-        do to stop me! "
+      _fontStyle: 2
+    - storySentenceText: HAHAHAHAHAH
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: ???
+      charaName: Maia
       useName: 1
-      newCharaLook: {fileID: 21300000, guid: 0a3d60db15d904571993c4851de718dc, type: 3}
-      newCharaLookInt: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "The student bares their teeth and sticks their tongue out
-        at you. It\u2019s unnaturally pink."
+    - storySentenceText: "THIS IS THE GREATEST IDEA I\u2019VE EVER HAD"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Maia hands you her phone. It\u2019s playing a video of you
+        jerking awake as she pours a little water down your face and into your ear.
+        It\u2019s about as graceful and alluring as you would expect."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -267,213 +287,9 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: You make a lewd gesture in response, sticking your tongue
-        out between two fingers. The student looks shocked, and then delighted.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: YES! It looks like we have more in common than I thought,
-        human! We both like this spot, and we both like eating people!!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 80bf472d289a44917ba78ab7504bf486, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: ' Finally, something you say makes sense! Give me your worst!!!
-        I want to feel like I can die! '
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "You launch yourself at the student, knocking them to the
-        ground. You scuffle, but it\u2019s clear that despite their small size they\u2019re
-        much stronger than you. You end up pinned beneath them after a few seconds."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Victory is mine! Now PERISH!!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: With no other strategy left to turn to, you stick your finger
-        up their nose. They screech and fall off of you, clutching their face.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: You have no manners! How amazing!! I love it!!!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: They stick out their hand.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: " If you say one more word like that, I\u2019ll rip your
-        tongue out of your mouth!!"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: '3:'
-      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
-      _audioClipVolume: 0.125
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: How are you making that noise?! What does that even mean?!?!
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 99250faa363264b0d8a67731f16795a9, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Your manner of speech....it entices me.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "The student\u2019s face screws up in concentration."
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: H-hewwo? Am I saying that right?
-      _audioClipStart: {fileID: 8300000, guid: 8bca1e49d97b84b7eb498b7cd6e7187d, type: 3}
-      _audioClipVolume: 0.125
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: ???
-      useName: 1
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Too shocked to speak, you nod vigorously.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-  - _storySentence:
-    - storySentenceText: "I am Jin-Woo, and I\u2019m basically the greatest being
-        you\u2019ll ever meet. Who are you, and why should I continue caring about
-        you?"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: fbf7a7e2e3d7341bc9014633dee54c98, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I\u2019m [player name], and one time I stacked three oranges
-        on top of each other and they stayed balanced for over an hour. "
+      _fontStyle: 2
+    - storySentenceText: I hate you so much. I look like if someone who had never
+        seen a dolphin before tried to imitate a dolphin.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -485,44 +301,32 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: 'I have never met a human with skills like that. How fantastic!!! '
+    - storySentenceText: Do you want to see it in slow motion?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: e8393139d2ca1469f81fbc0279b5bc26, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: 'We must be friends until you wither and die. I will kill
-        anyone and anything to protect you. '
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
+      charaName: Maia
       useName: 1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: 'Also, we can share this space as a sign of our friendship. '
+    - storySentenceText: HELL yes.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: Jin-Woo
+      charaName: You
       useName: 1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: On the ground, your phone beeps. The game is still open.
+    - storySentenceText: Maia presses a button and plays the video again. You both
+        laugh when your lips sputter at a quarter speed.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -533,23 +337,135 @@ MonoBehaviour:
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: '!!!! What was that?! Explain it to me immediately!!! '
+      _fontStyle: 2
+    - storySentenceText: "Anyways, good morning sunshine. We\u2019re almost at school."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: Jin-Woo
+      charaName: Maia
       useName: 1
-      newCharaLook: {fileID: 21300000, guid: e5c7b81f110464fc1adaf6ec735b4f71, type: 3}
-      newCharaLookInt: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Ugh. Do you have anything that\u2019s more exciting than
+        that? "
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Actually, yes. Did you know that even though horses have
+        hooves, their skeletons also have tiny fingers inside the hoof?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: So, horses have fingers? Secret fingers??
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: That's what I'm saying, yeah.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: I need you to punch me with your crazy powerful sports arms
+        so I get amnesia and forget you ever said this to me.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Kidding, kidding! But like, can you imagine? Horse fingers???
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "YES and it\u2019s TERRIBLE."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Yeah, it really is.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Okay, realtalk time. Would you rather eat a laundry pod,
+        knowing you would make it to the hospital and live, or have everything you
+        drink taste like laundry detergent for the rest of your life?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "It\u2019s a video game on my phone. Buying the actual system
-        for it would be too expensive, so I just downloaded this illegal app to play
-        it. "
+    - storySentenceText: "Ugh!! I\u2019d have to eat the pod...I don\u2019t think
+        I could give up pink lemonade. "
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -561,70 +477,19 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Jin-Woo\u2019s eyes light up at the word illegal."
+    - storySentenceText: Same. We could comfort each other in the hospital.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: I LOVE illegal things!!! May I test out your outlaw device?
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: e8393139d2ca1469f81fbc0279b5bc26, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: You hand them your phone and watch as they fight and lose
-        to the first boss.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: FUCK!!! How do I try again? Why do I have to mess with magic?
-        Why can't I just stab that old man???
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "That\u2019s not how battling works! But it would be easier
-        if you could do that\u2026"
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: You
+      charaName: Maia
       useName: 1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "Here, try combo-ing moves\u2026"
+    - storySentenceText: "Finally, we would know the taste of the forbidden fruit\u2026"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -637,7 +502,7 @@ MonoBehaviour:
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: "Uh, Nothing! It\u2019s nothing!! "
+    - storySentenceText: Ew!!! Do I have to answer?
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -649,58 +514,21 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: 'You grab your phone and stuff it into your pocket. You really
-        hope your cheeks aren''t as red as they feel. '
+    - storySentenceText: You gotta. What are you gonna do if this actually happens?
+        How would you decide??
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: 
-      useName: 0
+      charaName: Maia
+      useName: 1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "I see. Don\u2019t worry, I won\u2019t pry. "
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: 88dff888becdb4ee2a406dce4806f98a, type: 3}
-      newCharaLookInt: 0
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: 'I know all about blood secrets. '
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: Jin-Woo
-      useName: 1
-      newCharaLook: {fileID: 21300000, guid: fbf7a7e2e3d7341bc9014633dee54c98, type: 3}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: Yeah, Jin-Woo is definitely too cool to be interested in
-        anything you like.
-      _audioClipStart: {fileID: 0}
-      _audioClipVolume: 0
-      newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
-      charaName: 
-      useName: 0
-      newCharaLook: {fileID: 0}
-      newCharaLookInt: -1
-      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
-      _fontStyle: 0
-    - storySentenceText: "I don\u2019t believe you. Tell me one blood secret you\u2019ve
-        known about. "
+    - storySentenceText: Something tells me this will never happen...but if I had
+        to choose, then detergent drinks.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
@@ -712,31 +540,117 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: Well it begins with five witches, a cave, and me as their
-        resident diety...
+    - storySentenceText: "AUGH! No way!!! You\u2019d slurp detergent forever?!"
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: Jin-Woo
+      charaName: Maia
       useName: 1
-      newCharaLook: {fileID: 21300000, guid: 66ddda7683af446bab29652a538d4444, type: 3}
-      newCharaLookInt: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "It\u2019s a necessary sacrifice!! I\u2019d survive the laundry
+        pod thing, but what if it ruined my mouth forever?!"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "Fair enough. But you\u2019re gonna have to take care of
+        me when I\u2019m dead from tasting the forbidden fruit."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
   - _storySentence:
-    - storySentenceText: TO BE CONTINUED... [force quit here cause I'm too lazy to
-        implement a quit button]
+    - storySentenceText: The bus shrieks to a stop in front of the school, throwing
+        you and Maia into the seat in front of you.
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
       animationToPreform: 0
       charaAnimation: -1
-      charaName: Dev Team
+      charaName: 
+      useName: 0
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 2
+    - storySentenceText: Augh! Brake much?
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
       useName: 1
       newCharaLook: {fileID: 0}
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-  - _storySentence: []
+    - storySentenceText: "Maybe one day we\u2019ll break our faces or something and
+        we could sue the school."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "And then we\u2019ll finally get our own cars?"
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: "That\u2019s the plan. You\u2019ll never be able to meme
+        me again."
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: You
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
+    - storySentenceText: Pranks are like love. They find a way.
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0

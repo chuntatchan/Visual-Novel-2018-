@@ -152,7 +152,9 @@ MonoBehaviour:
     type: 2}
   currentDecision: {fileID: 0}
   letterPause: 0.001
-  mainTbox: {fileID: 0}
+  mainTbox: {fileID: 1582905124}
+  fadeOutScreen: {fileID: 0}
+  fadeOutDelta: 0
   tbox: {fileID: 1595986390}
   Characters:
   - {fileID: 435867976}
@@ -634,7 +636,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 701113967}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1

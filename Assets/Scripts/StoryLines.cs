@@ -18,12 +18,16 @@ public class storySentence {
 	[Range(0, 1f)]
 	public float _audioClipVolume;
 	public Sprite newBGImage;
-	public string animationToStart;
+	public VNAnimation animationToPreform;
+	public int charaAnimation = -1;
     public string charaName;
     public bool useName;
-    public int spawnCharacter = -1;
     public Sprite newCharaLook;
     public int newCharaLookInt = -1;
     public Color textBoxColor;
     public FontStyle _fontStyle;
+}
+
+public enum VNAnimation {
+	none, appear, disappear, fadeIn, fadeOut, flyInFromRight, flyInFromLeft, flyInFromBottom, flyInFromTop, flyOutToLeft, flyOutToRight, flyOutToBottom, flyOutToTop 
 }

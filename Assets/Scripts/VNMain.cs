@@ -52,7 +52,9 @@ public class VNMain : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		fadeOutScreen.gameObject.SetActive (false);
+		if (fadeOutScreen != null) {
+			fadeOutScreen.gameObject.SetActive (false);
+		}
         canGetNextLine = true;
         storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
@@ -72,7 +74,11 @@ public class VNMain : MonoBehaviour {
 		}
 
 		//Scene Change
-		SceneManager.LoadScene();
+		if (currentDecision.GetNextScene () != null) {
+			SceneManager.LoadScene (currentDecision.GetNextScene ());
+		} else {
+			Debug.Log ("Missing NextScene for currentDecision");
+		}
 
 		yield return new WaitForEndOfFrame ();
 	}
@@ -143,9 +149,10 @@ public class VNMain : MonoBehaviour {
 			nameTagTbox.text = "";
 			nameTag.SetActive(false);
 		}
-		if (currentStorySentence.spawnCharacter != -1)
+		if (currentStorySentence.animationToPreform !=  VNAnimation.none)
 		{
-			Characters[currentStorySentence.spawnCharacter].SetActive(true);
+			if (currentStorySentence.animationToPreform == VNAnimation.appear)
+			Characters[currentStorySentence.charaAnimation].SetActive(true);
 		}
 		if (currentStorySentence.newCharaLookInt != -1)
 		{
