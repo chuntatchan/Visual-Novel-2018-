@@ -55,7 +55,7 @@ MonoBehaviour:
   prompt: 
   storyStrings: 13
   nextDecisions:
-  - {fileID: 114049259547592310, guid: 4c499388a94904d8ab07e7c1d6c7ceaa, type: 2}
+  - {fileID: 114049259547592310, guid: b923458c4aa0540c1906c5edd4eded4f, type: 2}
   _isChoice: 0
   _isContinueToNextScene: 0
   activateTextUI: 0

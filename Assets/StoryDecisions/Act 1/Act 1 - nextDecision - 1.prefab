@@ -54,7 +54,10 @@ MonoBehaviour:
   optionString: " I\u2019ve never seen you here before. You can\u2019t just claim
     a spot you\u2019ve never been to!"
   prompt: 
-  storyStrings: 1
+  storyStrings: 3
   nextDecisions:
   - {fileID: 114049259547592310, guid: 6cd764503b8d64a70ab7d8c62995aa3a, type: 2}
-  _isChoice: 1
+  _isChoice: 0
+  _isContinueToNextScene: 0
+  activateTextUI: 0
+  nextScene: 

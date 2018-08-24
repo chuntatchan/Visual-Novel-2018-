@@ -53,8 +53,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: 
   prompt: '!!!! What was that?! Explain it to me immediately!!! '
-  storyStrings: 4
+  storyStrings: 6
   nextDecisions:
   - {fileID: 114049259547592310, guid: d6a6da15d3c8644c2b6d1d4b3ac957da, type: 2}
   - {fileID: 114049259547592310, guid: d3bf3173850d24058b0b48f0a6af55dc, type: 2}
-  _isChoice: 0
+  _isChoice: 1
+  _isContinueToNextScene: 0
+  activateTextUI: 0
+  nextScene: 

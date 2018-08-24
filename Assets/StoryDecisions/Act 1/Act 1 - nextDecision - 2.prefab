@@ -54,7 +54,10 @@ MonoBehaviour:
   optionString: " Sorry, but the spot is mine. I\u2019ll fight you for it if I have
     to! "
   prompt: 
-  storyStrings: 2
+  storyStrings: 4
   nextDecisions:
   - {fileID: 114049259547592310, guid: 6cd764503b8d64a70ab7d8c62995aa3a, type: 2}
-  _isChoice: 1
+  _isChoice: 0
+  _isContinueToNextScene: 0
+  activateTextUI: 0
+  nextScene: 

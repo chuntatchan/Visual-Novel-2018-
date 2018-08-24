@@ -53,6 +53,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: 
   prompt: 
-  storyStrings: 7
+  storyStrings: 9
   nextDecisions: []
   _isChoice: 0
+  _isContinueToNextScene: 1
+  activateTextUI: 0
+  nextScene: IntroElise

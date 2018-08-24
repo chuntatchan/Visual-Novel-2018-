@@ -66,6 +66,7 @@
      <Compile Include="Assets\ProCore\ProGrids\Classes\pg_SceneMeshRender.cs" />
      <Compile Include="Assets\ProCore\ProGrids\Classes\pg_Util.cs" />
      <Compile Include="Assets\ProCore\ProGrids\MonoBehaviour\pg_IgnoreSnap.cs" />
+     <Compile Include="Assets\Scripts\AudioManager.cs" />
      <Compile Include="Assets\Scripts\Decision.cs" />
      <Compile Include="Assets\Scripts\SceneManagement\transitionSceneTo.cs" />
      <Compile Include="Assets\Scripts\setPrefs.cs" />

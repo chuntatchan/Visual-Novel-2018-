@@ -53,7 +53,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: 'Hide the game. '
   prompt: 
-  storyStrings: 6
+  storyStrings: 8
   nextDecisions:
   - {fileID: 114049259547592310, guid: 3620423d4441b41b191a7d17547ea2c9, type: 2}
-  _isChoice: 1
+  _isChoice: 0
+  _isContinueToNextScene: 0
+  activateTextUI: 0
+  nextScene: 

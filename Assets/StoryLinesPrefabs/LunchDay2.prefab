@@ -106,6 +106,18 @@ MonoBehaviour:
       newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
+    - storySentenceText: INCLUDING that insanely beautiful mystery girl from Bio???
+      _audioClipStart: {fileID: 0}
+      _audioClipVolume: 0
+      newBGImage: {fileID: 0}
+      animationToPreform: 0
+      charaAnimation: -1
+      charaName: Maia
+      useName: 1
+      newCharaLook: {fileID: 0}
+      newCharaLookInt: -1
+      textBoxColor: {r: 0, g: 0, b: 0, a: 0}
+      _fontStyle: 0
     - storySentenceText: "I know, I can\u2019t believe it either. I have such little
         charisma...I don\u2019t even like talking to our current classmates."
       _audioClipStart: {fileID: 0}

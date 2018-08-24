@@ -41,6 +41,10 @@ public class VNMain : MonoBehaviour {
     [SerializeField]
     private AudioSource audioSource;
 
+	[SerializeField]
+	private GameObject[] TextUI;
+	private int textUICounter;
+
 
     private bool canGetNextLine;
 
@@ -59,6 +63,7 @@ public class VNMain : MonoBehaviour {
         storyStrings = storyLines.StoryLinesArray [0];
 		isPaused = false;
 		linesCounter = 0;
+		textUICounter = 0;
 		messageToDisplay = storyStrings._storySentence [linesCounter].storySentenceText;
         Text();
 		currentDecision = startingDecision;
@@ -85,7 +90,7 @@ public class VNMain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (!isPaused) {
+		if (!isPaused && canGetNextLine) {
 			if (Input.GetButtonDown ("nextLine")) {
                 if (!checkTyperText())
                 {
@@ -113,6 +118,22 @@ public class VNMain : MonoBehaviour {
                 }
 			}
 		}
+	}
+
+	public void SetCanGetNextLine(bool state) {
+		canGetNextLine = state;
+	}
+
+	public void hideMainTbox() {
+		mainTbox.gameObject.SetActive (false);
+		nameTag.gameObject.SetActive (false);
+		nameTagTbox.gameObject.SetActive (false);
+	}
+
+	public void showMainTbox() {
+		mainTbox.gameObject.SetActive (true);
+		nameTag.gameObject.SetActive (true);
+		nameTagTbox.gameObject.SetActive (true);
 	}
 
     private bool checkTyperText()
@@ -161,25 +182,28 @@ public class VNMain : MonoBehaviour {
 	}
 
 	private void activatePrompt() {
-        if (currentDecision.numberOfDecisions() == 1)
-        {
-            if (!currentDecision.nextDecisionAdvance(0).isChoice())
-            {
-                buttonClicked(0);
-            }
-        }
-        else
-        {
-            canGetNextLine = false;
-            tbox.text = currentDecision.promptString();
-            for (int i = 0; i < currentDecision.numberOfDecisions(); i++)
-            {
-                Decisions[i].gameObject.SetActive(true);
-                //Set buttonText
-                Text optionTBox = Decisions[i].GetComponentInChildren<Text>();
-                optionTBox.text = currentDecision.nextDecisionOptionString(i);
-            }
-        }
+		if (currentDecision.GetIsActivateTextUI ()) {
+			canGetNextLine = false;
+			print ("activating TextUI");
+			TextUI[textUICounter].SetActive (true);
+			textUICounter++;
+		} else {
+			if (!currentDecision.isChoice ()) {
+				print ("forced into merge");
+				canGetNextLine = false;
+				buttonClicked (0);
+			} else {
+				print("Not Merged");
+				canGetNextLine = false;
+				tbox.text = currentDecision.promptString ();
+				for (int i = 0; i < currentDecision.numberOfDecisions (); i++) {
+					Decisions [i].gameObject.SetActive (true);
+					//Set buttonText
+					Text optionTBox = Decisions [i].GetComponentInChildren<Text> ();
+					optionTBox.text = currentDecision.nextDecisionOptionString (i);
+				}
+			}
+		}
 	}
 
 	private void deactivateDecisions() {
@@ -192,6 +216,7 @@ public class VNMain : MonoBehaviour {
     public void buttonClicked(int i)
     {
         deactivateDecisions();
+		canGetNextLine = true;
         linesCounter = 0;
         currentDecision = currentDecision.nextDecisionAdvance(i);
         storyStrings = storyLines.StoryLinesArray[currentDecision.getStoryStrings()];
@@ -212,6 +237,7 @@ public class VNMain : MonoBehaviour {
     {
         // Change message to replace pronouns and playerName
         message = messageToDisplay;
+		message = ReplaceWords (message, "<pname>", PlayerPrefs.GetString("name"));
         tbox.text = "";
         StartCoroutine(TypeText());
     }

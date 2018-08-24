@@ -9,6 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/Title Screen.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/TestScene 1.unity
+    path: Assets/Scenes/Intro Scene Pt1.unity
+    guid: 40193ff0d105e42cb9ea231e5e11dc16
+  - enabled: 1
+    path: Assets/Scenes/namingScene.unity
+    guid: 7a9ca5eff6f4efa4da13ea4fe7127b0f
+  - enabled: 1
+    path: Assets/Scenes/Intro Scene Pt2.unity
+    guid: 685037b174fa3435b9f45207101366bd
+  - enabled: 1
+    path: Assets/Scenes/Gym.unity
     guid: 5f0b85e2db1da448e93ab76f6e6f2e17
+  - enabled: 1
+    path: Assets/Scenes/IntroElise.unity
+    guid: 241ee8e895e1344b9a9b1be30a2184f9
+  - enabled: 1
+    path: Assets/Scenes/Lunch (C_date).unity
+    guid: f86b1d1fa83eb4fd48193a9bea1bdf2e
+  - enabled: 1
+    path: Assets/Scenes/Lunch (P_date).unity
+    guid: 943c8beca89404e97a49f6a3c0810535
+  - enabled: 1
+    path: Assets/Scenes/ConcertDateElise.unity
+    guid: c868b029289fa4e6eb02735fd993c233
   m_configObjects: {}

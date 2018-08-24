@@ -57,4 +57,5 @@ MonoBehaviour:
   nextDecisions: []
   _isChoice: 0
   _isContinueToNextScene: 1
-  nextScene: 
+  activateTextUI: 0
+  nextScene: Gym
