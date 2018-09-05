@@ -72,8 +72,8 @@ public class VNMain : MonoBehaviour {
 	IEnumerator activateNextScene() {
 		fadeOutScreen.gameObject.SetActive (true);
 		float alpha = fadeOutScreen.color.a;
-		while (alpha > 0) {
-			alpha -= fadeOutDelta;
+		while (alpha < 0) {
+			alpha += fadeOutDelta;
 			fadeOutScreen.color = new Color (fadeOutScreen.color.r, fadeOutScreen.color.g, fadeOutScreen.color.b, alpha);
 			yield return new WaitForEndOfFrame ();
 		}
@@ -99,7 +99,7 @@ public class VNMain : MonoBehaviour {
                 }
                 else
                 {
-
+					print ("startNextLine");
                     linesCounter++;
 					if (storyStrings._storySentence.Length == linesCounter) {
 						if (currentDecision.isContinueToNextScene ()) {
@@ -153,6 +153,7 @@ public class VNMain : MonoBehaviour {
 		storySentence currentStorySentence = storyStrings._storySentence[linesCounter];
 		messageToDisplay = currentStorySentence.storySentenceText;
 		Text();
+		print ("text typin");
 		audioSource.Stop();
 		if (currentStorySentence._audioClipStart != null)
 		{
@@ -237,7 +238,10 @@ public class VNMain : MonoBehaviour {
     {
         // Change message to replace pronouns and playerName
         message = messageToDisplay;
-		message = ReplaceWords (message, "<pname>", PlayerPrefs.GetString("name"));
+		if (PlayerPrefs.HasKey ("name")) {
+			print ("replaced name");
+			message = ReplaceWords (message, "<pname>", PlayerPrefs.GetString ("name"));
+		}
         tbox.text = "";
         StartCoroutine(TypeText());
     }
@@ -247,7 +251,7 @@ public class VNMain : MonoBehaviour {
         string newMessage = message;
         while (newMessage.Contains(key))
         {
-            newMessage.Replace(key, newWord);
+            newMessage = newMessage.Replace(key, newWord);
         }
         return newMessage;
     }

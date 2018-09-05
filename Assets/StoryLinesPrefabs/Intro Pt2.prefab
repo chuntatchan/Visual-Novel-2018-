@@ -242,12 +242,12 @@ MonoBehaviour:
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
+      animationToPreform: 1
+      charaAnimation: 0
       charaName: 
       useName: 0
       newCharaLook: {fileID: 0}
-      newCharaLookInt: 0
+      newCharaLookInt: -1
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 2
     - storySentenceText: HAHAHAHAHAH

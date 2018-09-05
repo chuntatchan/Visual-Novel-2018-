@@ -154,7 +154,7 @@ MonoBehaviour:
   letterPause: 0.001
   mainTbox: {fileID: 1582905124}
   fadeOutScreen: {fileID: 343580661}
-  fadeOutDelta: 0
+  fadeOutDelta: 0.02
   tbox: {fileID: 1595986390}
   Characters:
   - {fileID: 435867976}
@@ -449,7 +449,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 17ade8759f9754b88b4a19cae4b6b373, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

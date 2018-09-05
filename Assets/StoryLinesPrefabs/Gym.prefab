@@ -604,8 +604,8 @@ MonoBehaviour:
       newCharaLookInt: 0
       textBoxColor: {r: 0, g: 0, b: 0, a: 0}
       _fontStyle: 0
-    - storySentenceText: "I\u2019m [player name], and one time I stacked three oranges
-        on top of each other and they stayed balanced for over an hour. "
+    - storySentenceText: "I\u2019m <pname>, and one time I stacked three oranges on
+        top of each other and they stayed balanced for over an hour. "
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}

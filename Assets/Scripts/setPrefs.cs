@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class setPrefs : MonoBehaviour {
 
@@ -13,13 +14,41 @@ public class setPrefs : MonoBehaviour {
     private GameObject[] pronounSelectionHighlighter;
     [SerializeField]
     private Text _inputField;
+	[SerializeField]
+	private Image fadeOutScreen;
+	[SerializeField]
+	private float fadeOutDelta;
 
 
     private void Start()
     {
+		StartCoroutine (fadeIn());
         continueButton.SetActive(false);
         highlighter.SetActive(false);
     }
+
+	IEnumerator fadeOut(string nextScene) {
+		fadeOutScreen.gameObject.SetActive (true);
+		float alpha = fadeOutScreen.color.a;
+		while (alpha < 0) {
+			alpha += fadeOutDelta;
+			fadeOutScreen.color = new Color (fadeOutScreen.color.r, fadeOutScreen.color.g, fadeOutScreen.color.b, alpha);
+			yield return new WaitForEndOfFrame ();
+		}
+		SceneManager.LoadScene (nextScene);
+	}
+
+	IEnumerator fadeIn() {
+		fadeOutScreen.color = new Color (fadeOutScreen.color.r, fadeOutScreen.color.g, fadeOutScreen.color.b, 1f);
+		fadeOutScreen.gameObject.SetActive (true);
+		float alpha = fadeOutScreen.color.a;
+		while (alpha > 0) {
+			alpha -= fadeOutDelta;
+			fadeOutScreen.color = new Color (fadeOutScreen.color.r, fadeOutScreen.color.g, fadeOutScreen.color.b, alpha);
+			yield return new WaitForEndOfFrame ();
+		}
+		fadeOutScreen.gameObject.SetActive (false);
+	}
 
     public void PronounSelect(string selection)
     {
@@ -39,7 +68,7 @@ public class setPrefs : MonoBehaviour {
 
     private void Update()
     {
-        if (PlayerPrefs.GetString("pronoun") != null && _inputField.text != "")
+        if (PlayerPrefs.GetString("pronoun") != "" && _inputField.text != "")
         {
             continueButton.SetActive(true);
         }
@@ -48,5 +77,9 @@ public class setPrefs : MonoBehaviour {
             continueButton.SetActive(false);
         }
     }
+
+	public void LoadScene(string nextScene) {
+		StartCoroutine (fadeOut(nextScene));
+	}
 
 }

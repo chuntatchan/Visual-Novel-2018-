@@ -53,7 +53,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionString: 
   prompt: 
-  storyStrings: 0
+  storyStrings: 6
   nextDecisions: []
   _isChoice: 0
   _isContinueToNextScene: 1
