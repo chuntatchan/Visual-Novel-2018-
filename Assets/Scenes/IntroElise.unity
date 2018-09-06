@@ -148,7 +148,7 @@ MonoBehaviour:
   - {fileID: 2130145587}
   - {fileID: 1608456888}
   - {fileID: 503778755}
-  startingDecision: {fileID: 114049259547592310, guid: 74038022a64fb4981a9bbc0a16f54603,
+  startingDecision: {fileID: 114049259547592310, guid: 3c8c318c8d0854404bf1bbc902f24968,
     type: 2}
   currentDecision: {fileID: 0}
   letterPause: 0.001

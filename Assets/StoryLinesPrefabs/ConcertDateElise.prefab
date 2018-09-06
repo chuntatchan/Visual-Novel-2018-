@@ -369,7 +369,7 @@ MonoBehaviour:
         and takes it all in, eyes sparkling."
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
-      newBGImage: {fileID: 0}
+      newBGImage: {fileID: 21300000, guid: 516a6879131a940158018e9feda99dc5, type: 3}
       animationToPreform: 0
       charaAnimation: -1
       charaName: 
