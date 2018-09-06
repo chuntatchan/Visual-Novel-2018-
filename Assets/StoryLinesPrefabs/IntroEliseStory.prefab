@@ -1585,8 +1585,8 @@ MonoBehaviour:
       _audioClipStart: {fileID: 0}
       _audioClipVolume: 0
       newBGImage: {fileID: 0}
-      animationToPreform: 0
-      charaAnimation: -1
+      animationToPreform: 1
+      charaAnimation: 1
       charaName: 
       useName: 0
       newCharaLook: {fileID: 0}

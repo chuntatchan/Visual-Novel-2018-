@@ -90,12 +90,17 @@ public class VNMain : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
+		if (Input.GetKeyDown (KeyCode.N)) {
+			print (PlayerPrefs.GetString("name"));
+		}
+
 		if (!isPaused && canGetNextLine) {
 			if (Input.GetButtonDown ("nextLine")) {
                 if (!checkTyperText())
                 {
                     StopAllCoroutines();
-                    tbox.text = messageToDisplay;
+                    tbox.text = message;
                 }
                 else
                 {
