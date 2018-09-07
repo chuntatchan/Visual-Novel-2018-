@@ -143,7 +143,7 @@ public class VNMain : MonoBehaviour {
 
     private bool checkTyperText()
     {
-        if (tbox.text == messageToDisplay)
+        if (tbox.text == message)
         {
             return true;
         }
